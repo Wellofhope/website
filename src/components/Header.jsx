@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
 import {Link} from "react-router-dom";
 import {Jumbotron, Button, Carousel} from 'react-bootstrap'
-
+import Transition from './common/Transition'
 
 class Header extends Component {
     state = {  }
-    render() { 
-        return ( 
+    render() {
+        return (
             <React.Fragment>
- 
- <div className="container">
+
+  <div className="container">
 <Carousel>
   <Carousel.Item>
     <img
@@ -18,7 +18,7 @@ class Header extends Component {
       alt="First slide"
     />
     <Carousel.Caption>
-      <h1>WELL OF HOPE</h1>
+      <h2>WELL OF HOPE</h2>
           <div className="intro-text">
       <div className="intro-lead-in">International</div>
       <Link className="btn btn-primary btn-xl text-uppercase js-scroll-trigger" to="/aboutus">About Us</Link>
@@ -34,7 +34,7 @@ class Header extends Component {
     />
 
     <Carousel.Caption>
-      <h3>Second slide label</h3>
+      <h3><Transition/></h3>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
     </Carousel.Caption>
   </Carousel.Item>
@@ -46,7 +46,7 @@ class Header extends Component {
     />
 
     <Carousel.Caption>
-      <h3></h3>
+      <h3><Transition/></h3>
       <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
     </Carousel.Caption>
   </Carousel.Item>
@@ -69,7 +69,7 @@ class Header extends Component {
           <i className="fa fa-eye fa-stack-1x fa-inverse"></i>
         </span>
         <h4 className="service-heading">Vision</h4>
-        <p className="text-muted">To ensure the empowerment of the underprivileged in our society through the provision of economical supports, 
+        <p className="text-muted">To ensure the empowerment of the underprivileged in our society through the provision of economical supports,
         educational opportunities, health services, and safe housing, while upholding their rights as individuals.</p>
       </div>
       <div className="col-md-4">
@@ -78,7 +78,7 @@ class Header extends Component {
           <i className="fa fa-heartbeat fa-stack-1x fa-inverse"></i>
         </span>
         <h4 className="service-heading">Mission</h4>
-        <p className="text-muted">To fight for the rights of the brokenhearted widows and bring them together to overcome the loneliness 
+        <p className="text-muted">To fight for the rights of the brokenhearted widows and bring them together to overcome the loneliness
         posed by the loss of their beloved ones.</p>
       </div>
       <div className="col-md-4">
@@ -87,7 +87,7 @@ class Header extends Component {
           <i className="fa fa-users fa-stack-1x fa-inverse"></i>
         </span>
         <h4 className="service-heading">Who We Are</h4>
-        <p className="text-muted">Pure religion and undefiled before God and the Father is this: to visit the fatherless 
+        <p className="text-muted">Pure religion and undefiled before God and the Father is this: to visit the fatherless
         and widows in their affliction and to keep
          oneself unspotted by the world. James 1:27.</p>
       </div>
@@ -98,5 +98,5 @@ class Header extends Component {
          );
     }
 }
- 
+
 export default Header;

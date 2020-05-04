@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Footer from './common/Footer'
 import Card from './common/Card'
-import { Container, Divider } from 'semantic-ui-react'
+import { Container, Divider, Header } from 'semantic-ui-react'
 
 
 class Contact extends Component {
@@ -9,18 +9,19 @@ class Contact extends Component {
     render() { 
         return ( 
             <React.Fragment>
-  <div>
-    <Container textAlign='center'>CONTACT US</Container>
-    <Container textAlign='justified'>
-      <Divider />
-      <p>
-      With the help of other partners, such as Well of Hope America, individual sponsors and the founder, Nathaniel Kariuki, WOHI has impacted lives positively.
+  <div className="col-lg-12 text-center">
+    <Container textAlign='center' color='teal'><Header as='h1'>CONTACT US</Header></Container>
+    <Container textAlign='justified' color='teal'>
+      <Divider  color='teal'/>
+      <p color='teal'>
+      <Header as='h4'>  With the help of other partners, such as Well of Hope America, individual sponsors and the founder, Nathaniel Kariuki, WOHI has impacted lives positively.
 Well of Hope International is committed to the vision to ensure the empowerment of the underprivileged in Kenya through the provision of economical supports, educational opportunities, health services, and safe housing, while upholding the rights of everyone served.
 
 Well of Hope International is open to help and support by willing donors that have the vision of helping the underprivileged.
 Thanks to all that support the mission.
 
-with our events and confirm your presence.
+with our events and confirm your presence.</Header>
+    
 
 
       </p>

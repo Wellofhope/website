@@ -3,55 +3,68 @@ import { Button, Card, Divider, Icon } from 'semantic-ui-react'
 
 const CardExampleGroups = () => (
   <Card.Group>
-    <Card>
-      <Card.Content>
+    <Card color='blue'>
+      <Card.Content color='blue'>
         
-        <Card.Header> Address</Card.Header>
+        <Card.Header> <div className='ui two buttons'>
+          <Button color='blue'>
+          <Icon name='building'/>Address
+          </Button>
+        </div></Card.Header>
         <Divider />
 
         {/* <Card.Meta>Friends of Elliot</Card.Meta> */}
         <Card.Description>
-            <Icon name='building'/>THE NOOK HOUSE, KISERIAN TOWN,
+            <Icon name='building' color='blue'/>THE NOOK HOUSE, KISERIAN TOWN,
                      KISERIAN, NAIROBI, KENYA
         </Card.Description>
         <br/>
         <Card.Description>
-            <Icon name='envelope'/>P.o Box 391  00206 Kajiado,
+            <Icon name='envelope' color='blue'/>P.o Box 391  00206 Kajiado,
                                      Kenya.
 
         </Card.Description>
       </Card.Content>
     </Card>
-    <Card>
-      <Card.Content>
+    <Card color='red'>
+      <Card.Content color='red'>
 
-        <Card.Header>Email Us Through</Card.Header>
+        <Card.Header> <div className='ui two buttons'>
+          <Button color='red'>
+          <Icon name='at'/>Email Us Through
+          </Button>
+        </div></Card.Header>
         <Divider />
 
         {/* <Card.Meta>New User</Card.Meta> */}
-        <Card.Description>
-            <Icon name='at'/>SUPPORT@WELLOFHOPEINT.ORG
+        <Card.Description color='blue'>
+            <Icon name='at' color='red'/>SUPPORT@WELLOFHOPEINT.ORG
         </Card.Description>
         <br/>
         <Card.Description>
-            <Icon name='at'/>info@wellofhopeint.org
+            <Icon name='at' color='red'/>info@wellofhopeint.org
         </Card.Description>
       </Card.Content>
     </Card>
-    <Card>
+    <Card color='green'>
       <Card.Content>
-        <Card.Header>  Phone Numbers</Card.Header>
+        <Card.Header>   <div className='ui two buttons'>
+          <Button  color='green'>
+          <Icon name='phone'/> Phone Numbers
+          </Button>
+        </div></Card.Header>
         <Divider />
 
         {/* <Card.Meta>Cell Phone</Card.Meta> */}
         <Card.Description>
-        <Icon name='phone'  />(+254) 712 256 610
+        <Icon name='phone' color='green' />(+254) 712 256 610
         </Card.Description>
         <br/>
         {/* <Card.Meta>Tel.</Card.Meta> */}
         <Card.Description>
-        <Icon name='text telephone' />(+254) 712 256 610
+        <Icon name='text telephone' color='green'/>(+254) 712 256 610
         </Card.Description>
+       
       </Card.Content>
     </Card>
   </Card.Group>

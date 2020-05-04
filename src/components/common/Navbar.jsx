@@ -1,15 +1,14 @@
 import React from "react";
-// import Image from "../Common/Image"
+// import Image from './Image'
+import Logo from './Logo';
 import {Link} from "react-router-dom";
-import { Container, Divider } from 'semantic-ui-react'
-
-
 const Navbar = () => {
+  
     return ( 
         <React.Fragment>
-      <nav className="navbar navbar-expand-sm navbar-light bg-white border-bottom">
+      <nav className="navbar navbar-expand-sm navbar-light bg-blue border-bottom">
         <a className="navbar-brand" href="#">
-        <Link className="navbar-brand js-scroll-trigger" to="/">Well Of Hope International</Link>
+        <Link className="navbar-brand js-scroll-trigger" to="/"><Logo/></Link>
         </a>
         <button
           className="navbar-toggler d-lg-none"
@@ -55,7 +54,6 @@ const Navbar = () => {
                   <Link className="dropdown-item" to="/blog">
                     Blog
                   </Link>
-                  <Divider />
                   <Link className="dropdown-item" to="/videos">
                     Videos
                   </Link>
@@ -76,31 +74,24 @@ const Navbar = () => {
                   <Link className="dropdown-item" to="/land">
                     Land/Settlement
                   </Link>
-                  <Divider />
                   <Link className="dropdown-item" to="/house">
                     Housing
                   </Link>
-                  <Divider />
                   <Link className="dropdown-item" to="/sponsorship">
                     Children Sponsorship
                   </Link>
-                  <Divider />
                   <Link className="dropdown-item" to="/water">
                     Water 
                   </Link>
-                  <Divider />
                   <Link className="dropdown-item" to="/school">
                     School
                   </Link>
-                  <Divider />
                   <Link className="dropdown-item" to="/farm">
                     Farm
                   </Link>
-                  <Divider />
                   <Link className="dropdown-item" to="/sewing">
                     Sewing
                   </Link>
-                  <Divider />
                   <Link className="dropdown-item" to="/washrooms">
                     Washrooms
                   </Link>
@@ -119,11 +110,11 @@ const Navbar = () => {
             </ul>
             <br/>
              <div className="my-2 my-lg-0">
-             <Link className="btn btn-secondary" to="/donate">DONATE TO THIS CAUSE</Link>
+             <Link className="btn btn-secondary" to="/donate">DONATE TO THE CAUSE</Link>
 
             </div> 
           </div>
-
+        
         </div>
       </nav>
     </React.Fragment>
