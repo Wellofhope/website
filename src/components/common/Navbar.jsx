@@ -1,6 +1,8 @@
 import React from "react";
 // import Image from "../Common/Image"
 import {Link} from "react-router-dom";
+import { Container, Divider } from 'semantic-ui-react'
+
 
 const Navbar = () => {
     return ( 
@@ -53,6 +55,7 @@ const Navbar = () => {
                   <Link className="dropdown-item" to="/blog">
                     Blog
                   </Link>
+                  <Divider />
                   <Link className="dropdown-item" to="/videos">
                     Videos
                   </Link>
@@ -73,24 +76,31 @@ const Navbar = () => {
                   <Link className="dropdown-item" to="/land">
                     Land/Settlement
                   </Link>
+                  <Divider />
                   <Link className="dropdown-item" to="/house">
                     Housing
                   </Link>
+                  <Divider />
                   <Link className="dropdown-item" to="/sponsorship">
                     Children Sponsorship
                   </Link>
+                  <Divider />
                   <Link className="dropdown-item" to="/water">
                     Water 
                   </Link>
+                  <Divider />
                   <Link className="dropdown-item" to="/school">
                     School
                   </Link>
+                  <Divider />
                   <Link className="dropdown-item" to="/farm">
                     Farm
                   </Link>
+                  <Divider />
                   <Link className="dropdown-item" to="/sewing">
                     Sewing
                   </Link>
+                  <Divider />
                   <Link className="dropdown-item" to="/washrooms">
                     Washrooms
                   </Link>
@@ -108,35 +118,12 @@ const Navbar = () => {
               </li>
             </ul>
             <br/>
-            {/* <div className="my-2 my-lg-0">
-              <div className="nav-item dropdown">
-                <a
-                  className="nav-link dropdown-toggle"
-                  href="#"
-                  id="userAccount"
-                  data-toggle="dropdown"
-                  aria-haspopup="true"
-                  aria-expanded="false"
-                >
-                  <i className="fa fa-user" aria-hidden="true"></i>
-                  User
-                </a>
-                <div className="dropdown-menu" aria-labelledby="userAccount">
-                  <Link className="dropdown-item" to="/resetPassword">
-                    Change Password
-                  </Link>
-                  <Link className="dropdown-item" to="/logout">
-                    Logout
-                  </Link>
-                </div>
-              </div>
-            </div> */}
+             <div className="my-2 my-lg-0">
+             <Link className="btn btn-secondary" to="/donate">DONATE TO THIS CAUSE</Link>
+
+            </div> 
           </div>
-          {/* <form className="form-inline my-2 my-lg-0">
-                <input className="form-control mr-sm-2" type="text" placeholder="Search"/>
-                <Button onClick={this.signOut} className={classes.signOutBtn}>Sign Out</Button>
-                <button className="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-            </form> */}
+
         </div>
       </nav>
     </React.Fragment>
