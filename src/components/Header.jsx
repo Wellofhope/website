@@ -1,20 +1,57 @@
 import React, { Component } from 'react';
 import {Link} from "react-router-dom";
+import {Jumbotron, Button, Carousel} from 'react-bootstrap'
+
 
 class Header extends Component {
     state = {  }
     render() { 
         return ( 
             <React.Fragment>
-  <header className="masthead">
-  <div className="container">
-    <div className="intro-text">
-      <div className="intro-heading text-uppercase">Well Of Hope  </div>
+ 
+ <div className="container">
+<Carousel>
+  <Carousel.Item>
+    <img
+      className="d-block w-100"
+      src="http://placekitten.com/700/350"
+      alt="First slide"
+    />
+    <Carousel.Caption>
+      <h1>WELL OF HOPE</h1>
+          <div className="intro-text">
       <div className="intro-lead-in">International</div>
       <Link className="btn btn-primary btn-xl text-uppercase js-scroll-trigger" to="/aboutus">About Us</Link>
     </div>
-  </div>
-</header>
+
+    </Carousel.Caption>
+  </Carousel.Item>
+  <Carousel.Item>
+    <img
+      className="d-block w-100"
+      src="http://placekitten.com/700/350"
+      alt="Third slide"
+    />
+
+    <Carousel.Caption>
+      <h3>Second slide label</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </Carousel.Caption>
+  </Carousel.Item>
+  <Carousel.Item>
+    <img
+      className="d-block w-100"
+      src="http://placekitten.com/700/350"
+      alt="Third slide"
+    />
+
+    <Carousel.Caption>
+      <h3></h3>
+      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+    </Carousel.Caption>
+  </Carousel.Item>
+</Carousel>
+</div>
 
 
 <section className="page-section" id="services">
