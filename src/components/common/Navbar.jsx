@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, Divider, Input, Segment } from 'semantic-ui-react'
+import { Button, Divider, Input, Segment, Icon } from 'semantic-ui-react'
 import Logo from './Logo';
 import {Link} from "react-router-dom";
 const Navbar = () => {
@@ -118,7 +118,7 @@ const Navbar = () => {
             </ul>
             <br/>
              <div className="my-2 my-lg-0">
-             <Link className="btn btn-secondary" to="/donate">DONATE TO THIS CAUSE</Link>
+             <Link className="btn btn-secondary" to="/donate"><Icon name='handshake' />    DONATE TO THIS CAUSE</Link>
 
             </div> 
           </div>
