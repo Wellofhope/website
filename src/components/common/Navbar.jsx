@@ -1,5 +1,5 @@
 import React from "react";
-// import Image from './Image'
+import { Button, Divider, Input, Segment } from 'semantic-ui-react'
 import Logo from './Logo';
 import {Link} from "react-router-dom";
 const Navbar = () => {
@@ -54,6 +54,7 @@ const Navbar = () => {
                   <Link className="dropdown-item" to="/blog">
                     Blog
                   </Link>
+                  <Divider />
                   <Link className="dropdown-item" to="/videos">
                     Videos
                   </Link>
@@ -74,24 +75,31 @@ const Navbar = () => {
                   <Link className="dropdown-item" to="/land">
                     Land/Settlement
                   </Link>
+                  <Divider />
                   <Link className="dropdown-item" to="/house">
                     Housing
                   </Link>
+                  <Divider />
                   <Link className="dropdown-item" to="/sponsorship">
                     Children Sponsorship
                   </Link>
+                  <Divider />
                   <Link className="dropdown-item" to="/water">
                     Water 
                   </Link>
+                  <Divider />
                   <Link className="dropdown-item" to="/school">
                     School
                   </Link>
+                  <Divider />
                   <Link className="dropdown-item" to="/farm">
                     Farm
                   </Link>
+                  <Divider />
                   <Link className="dropdown-item" to="/sewing">
                     Sewing
                   </Link>
+                  <Divider />
                   <Link className="dropdown-item" to="/washrooms">
                     Washrooms
                   </Link>
