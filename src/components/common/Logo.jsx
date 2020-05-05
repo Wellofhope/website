@@ -1,9 +1,9 @@
 import React from 'react';
-import  "./Log.jpg"
+import  "./wellofhope.png"
 
 const Logo = () => {
     return (  
-        <img src="Log.jpg" height="50"
+        <img src="wellofhope.png" height="50"
                     alt="Brand
                         Logo" />
     );
