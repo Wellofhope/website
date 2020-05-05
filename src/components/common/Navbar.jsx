@@ -110,7 +110,7 @@ const Navbar = () => {
             </ul>
             <br/>
              <div className="my-2 my-lg-0">
-             <Link className="btn btn-secondary" to="/donate">DONATE TO THE CAUSE</Link>
+             <Link className="btn btn-secondary" to="/donate">DONATE TO THIS CAUSE</Link>
 
             </div> 
           </div>

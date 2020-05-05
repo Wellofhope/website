@@ -30,7 +30,8 @@ with our events and confirm your presence.</Header>
               </Container>
       </div>
 
-
+      <Divider horizontal>Or</Divider>
+                        <div className="col-lg-12 text-center"><Header as='h4'>LEAVE US A MESSAGE</Header></div>
 <br/>
                  <section className="page-section" id="contact">
     <div className="container">
