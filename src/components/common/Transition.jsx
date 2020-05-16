@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Button, Divider, Image, Transition } from 'semantic-ui-react'
+import { Button, Divider, Image, Transition, Reveal } from 'semantic-ui-react'
 
 export default class TransitionExampleTransition extends Component {
   state = { visible: true }
@@ -13,14 +13,15 @@ export default class TransitionExampleTransition extends Component {
     return (
       <div>
            <Transition visible={visible} animation='scale' duration={50}>
-          <Image size='small' src='https://react.semantic-ui.com/images/leaves/1.png' />
+           <Reveal animated='move' instant>
+    <Reveal.Content visible>
+      <Image src='https://react.semantic-ui.com/images/wireframe/square-image.png' size='small' />
+    </Reveal.Content>
+    <Reveal.Content hidden>
+      <Image src='https://react.semantic-ui.com/images/avatar/large/chris.jpg' size='small' />
+    </Reveal.Content>
+  </Reveal>
         </Transition>
-        <Divider hidden />
-
-        <Button
-          content={visible ? 'Hide' : 'Show'}
-          onClick={this.toggleVisibility}
-        />
        
       </div>
     )
