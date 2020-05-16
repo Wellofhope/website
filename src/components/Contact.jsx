@@ -76,7 +76,6 @@ with our events and confirm your presence.</Header>
       </div>
     </div>
   </section>
-  <Footer/>
             </React.Fragment>
          );
     }
