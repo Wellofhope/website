@@ -3,7 +3,7 @@ import { Button, Divider, Input, Segment } from 'semantic-ui-react'
 
 import OurStory from './OurStory'
 import Projects from './Projects'
-// import Team from './Team'
+import Testimonials from './Testimonials'
 import Header from './Header'
 import Contact from './Contact'
 

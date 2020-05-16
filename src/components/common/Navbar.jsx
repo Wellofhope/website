@@ -58,6 +58,10 @@ const Navbar = () => {
                   <Link className="dropdown-item" to="/videos">
                     Videos
                   </Link>
+                  <Divider />
+                  <Link className="dropdown-item" to="/testimonials">
+                    Testimonials
+                  </Link>
                 </div>
               </li>
               <li className="nav-item dropdown">
