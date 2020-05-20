@@ -85,27 +85,27 @@ const Navbar = () => {
                   </Link>
                   <Divider />
                   <Link className="dropdown-item" to="/sponsorship">
-                    Children Sponsorship
+                    Children Sponsorship/School
                   </Link>
                   <Divider />
                   <Link className="dropdown-item" to="/water">
                     Water 
                   </Link>
-                  <Divider />
+                  {/* <Divider />
                   <Link className="dropdown-item" to="/school">
                     School
-                  </Link>
+                  </Link> */}
                   <Divider />
                   <Link className="dropdown-item" to="/farm">
-                    Farm
-                  </Link>
+                    Other Projects
+                  {/* </Link>
                   <Divider />
                   <Link className="dropdown-item" to="/sewing">
                     Sewing
                   </Link>
                   <Divider />
                   <Link className="dropdown-item" to="/washrooms">
-                    Washrooms
+                    Washrooms */}
                   </Link>
                 </div>
               </li>

@@ -4,6 +4,7 @@ import Footer from './components/common/Footer'
 import MainLayout from './components/MainLayout'
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import './App.css';
+import { Container, Divider, Image, Card } from 'semantic-ui-react'
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.min.js";
 import Contact from './components/Contact';
@@ -50,6 +51,7 @@ function App() {
 
         
       </Switch>
+      <Divider horizontal></Divider>
       <Footer/>
     </Router>
   );

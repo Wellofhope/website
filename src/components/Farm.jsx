@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
-import { Card } from 'semantic-ui-react'
+import { Container, Divider, Image, Card } from 'semantic-ui-react'
 import  "./common/wellofhope.png"
+import Sewing from './Sewing'
+import Food from './Food'
+import Briquettes from './Briquettes'
+import Goat from './Goat'
 
 const src = 'wellofhope.png'
 
@@ -9,20 +13,19 @@ class Farm extends Component {
     render() { 
         return ( 
             <React.Fragment>
-            <Card.Group itemsPerRow={6}>
-    <Card raised image={src} />
-    <Card raised image={src} />
-    <Card raised image={src} />
-    <Card raised image={src} />
-    <Card raised image={src} />
-    <Card raised image={src} />
-    <Card raised image={src} />
-    <Card raised image={src} />
-    <Card raised image={src} />
-    <Card raised image={src} />
-    <Card raised image={src} />
-    <Card raised image={src} />
-  </Card.Group>
+               
+          <Sewing/>
+          <br/>
+          <Food/>
+          <br/>
+          <Briquettes/>
+          <br/>
+          <Goat/>
+          <br/>
+          <Divider horizontal>End of projects</Divider>
+          
+
+
             </React.Fragment>
          );
     }

@@ -1,8 +1,10 @@
 import React from 'react';
+import { Container, Image, Divider, Message } from 'semantic-ui-react'
 
 const Footer = () => {
     return (
         <React.Fragment>
+          <Divider horizontal></Divider>
             <footer className="footer  bg-blue">
     <div className="container">
       <div className="row align-items-center">

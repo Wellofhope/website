@@ -1,28 +1,33 @@
 import React, { Component } from 'react';
-import { Card } from 'semantic-ui-react';
-import  "./common/wellofhope.png"
+import { Container, Image, Divider, Message } from 'semantic-ui-react'
+// import  "./common/wellofhope.png"
+let listOfImages= []
 
 const src = 'wellofhope.png'
 
 class Water extends Component {
-    state = {  }
+    importAll(r) {
+        return r.keys().map(r);
+    }
+    componentWillMount() {
+        listOfImages = this.importAll(require.context('../assets/website/borehole', false, /\.(png|jpe?g|svg)$/));
+    }
     render() { 
         return ( 
             <React.Fragment>
-                 <Card.Group itemsPerRow={4}>
-    <Card color='red' image={src} />
-    <Card color='orange' image={src} />
-    <Card color='yellow' image={src} />
-    <Card color='olive' image={src} />
-    <Card color='green' image={src} />
-    <Card color='teal' image={src} />
-    <Card color='blue' image={src} />
-    <Card color='violet' image={src} />
-    <Card color='purple' image={src} />
-    <Card color='pink' image={src} />
-    <Card color='brown' image={src} />
-    <Card color='grey' image={src} />
-  </Card.Group>
+                <Divider horizontal>Borehole</Divider>
+                  <Container> 
+                  <Message color='blue' floating content='Way to go!' />
+                         <Image.Group size='small'>
+                  {
+                    listOfImages.map(
+                      (image, index) =>   
+                       <Image key={index} src={image} alt="info"/>
+                    )
+              }
+
+                           </Image.Group>
+                 </Container>
             </React.Fragment>
          );
     }
