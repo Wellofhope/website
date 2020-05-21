@@ -12,7 +12,6 @@ class Briquettes extends Component {
     render() { 
         return ( 
             <React.Fragment>
-                <Divider color='blue' horizontal>Briquettes</Divider>
                   <Container> 
                   <Message color='blue' floating content='Way to go!' />
                          <Image.Group size='small'>

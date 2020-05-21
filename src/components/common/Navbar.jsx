@@ -76,7 +76,7 @@ const Navbar = () => {
                   Projects
                 </a>
                 <div className="dropdown-menu" aria-labelledby="userAccount">
-                  <Link className="dropdown-item" to="/land">
+                  <Link className="dropdown-item" to="/landandsettlement">
                     Land/Settlement
                   </Link>
                   <Divider />
@@ -84,7 +84,7 @@ const Navbar = () => {
                     Housing
                   </Link>
                   <Divider />
-                  <Link className="dropdown-item" to="/sponsorship">
+                  <Link className="dropdown-item" to="/school">
                     Children Sponsorship/School
                   </Link>
                   <Divider />
@@ -96,7 +96,7 @@ const Navbar = () => {
                     School
                   </Link> */}
                   <Divider />
-                  <Link className="dropdown-item" to="/farm">
+                  <Link className="dropdown-item" to="/other projects">
                     Other Projects
                   {/* </Link>
                   <Divider />

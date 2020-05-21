@@ -4,7 +4,6 @@ import Gallery from 'react-grid-gallery';
 import  "./common/wellofhope.png"
 import '../assets/website/school/trial.png'
 let listOfImages= []
-let listdistribution= []
 
 class Sewing extends Component {
     importAll(r) {
@@ -17,7 +16,7 @@ class Sewing extends Component {
     render() { 
         return ( 
             <React.Fragment>
-                 <Divider horizontal>Sewing</Divider>
+                
                   <Container> 
                   <Message color='blue' floating content='Way to go!' />
                          <Image.Group size='small'>

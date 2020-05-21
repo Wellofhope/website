@@ -2,6 +2,16 @@ import React, { Component } from 'react';
 import {Link} from "react-router-dom";
 import {Jumbotron, Button, Carousel} from 'react-bootstrap'
 import Transition from './common/Transition'
+// import Carousels from './common/Carousels'
+// import './common/background.jpg'
+
+// const items = [
+//   {
+//     src: background.jpg, 
+//     altText: 'Slide 1',
+//     caption: 'Slide 1'
+//   }, ]
+  
 
 class Header extends Component {
     state = {  }
@@ -14,7 +24,7 @@ class Header extends Component {
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src="http://placekitten.com/700/350"
+      src= "/common/assets/img/background url.jpg"
       alt="First slide"
     />
     <Carousel.Caption>
@@ -29,7 +39,7 @@ class Header extends Component {
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src="http://placekitten.com/700/350"
+      src="https://web.facebook.com/photo/?fbid=297501223689279&set=a.297500860355982"
       alt="Third slide"
     />
 
@@ -41,7 +51,7 @@ class Header extends Component {
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src="http://placekitten.com/700/350"
+      src="https://web.facebook.com/photo/?fbid=297501223689279&set=a.297500860355982"
       alt="Third slide"
     />
 
@@ -52,6 +62,7 @@ class Header extends Component {
   </Carousel.Item>
 </Carousel>
 </div>
+{/* <Carousels/> */}
 
 
 <section className="page-section" id="services">

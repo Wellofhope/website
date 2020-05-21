@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {Suspense} from 'react';
 import Navbar from './components/common/Navbar'
 import Footer from './components/common/Footer'
 import MainLayout from './components/MainLayout'
@@ -7,6 +7,7 @@ import './App.css';
 import { Container, Divider, Image, Card } from 'semantic-ui-react'
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.min.js";
+import Loader from './components/common/Loader'
 import Contact from './components/Contact';
 import Projects from './components/Projects';
 import Videos from './components/Videos';
@@ -15,14 +16,17 @@ import Galler from './components/Galler';
 import Causes from './components/Cuases';
 import OurStory from './components/OurStory';
 import Testimonials from './components/Testimonials'
-import House from './components/House'
 import Sponsor from './components/Sponsor'
 import Water from './components/Water'
-import Land from './components/Land'
-import School from './components/School'
+// import Land from './components/Land'
+// import School from './components/School'
 import Farm from './components/Farm'
 import Sewing from './components/Sewing'
 import Washrooms from './components/Washrooms'
+
+const House = React.lazy(()=> import('./components/House'));
+const Land = React.lazy(()=> import('./components/Land'))
+const School = React.lazy(()=> import('./components/School'))
 
 function App() {
   return (
@@ -35,11 +39,13 @@ function App() {
         <Route exact path="/gallery" component={Galler} />
         <Route exact path="/washrooms" component={Washrooms} />
         <Route exact path="/sewing" component={Sewing} />
-        <Route exact path="/farm" component={Farm} />
-        <Route exact path="/school" component={School} />
-        <Route exact path="/land" component={Land} />
+        <Route exact path="/other projects" component={Farm} />
         <Route exact path="/water" component={Water} />
+        <Suspense fallback={<Loader/>}>
         <Route exact path="/house" component={House} />
+        <Route exact path="/landandsettlement" component={Land} />
+        <Route exact path="/school" component={School} />
+        </Suspense>
         <Route exact path="/sponsorship" component={Sponsor} />
         <Route exact path="/contact" component={Contact} />
         <Route exact path="/projects" component={Projects} />
@@ -51,7 +57,7 @@ function App() {
 
         
       </Switch>
-      <Divider horizontal></Divider>
+      <Divider horizontal>End of Page</Divider>
       <Footer/>
     </Router>
   );

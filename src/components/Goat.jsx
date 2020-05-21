@@ -15,7 +15,6 @@ class Goat extends Component {
     render() { 
         return ( 
             <React.Fragment>
-          <Divider horizontal>Farm Projects</Divider>
            <Container> 
             <Message color='blue' floating content='Way to go!' />
                    <Image.Group size='small'>
