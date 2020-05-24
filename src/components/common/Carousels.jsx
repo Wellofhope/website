@@ -10,7 +10,7 @@ import './background.jpg'
 
 const items = [
   {
-    src: {require( src='./assets/charityy.png')},
+    src: "https://c4.staticflickr.com/9/8887/28897124891_98c4fdd82b_b.jpg",
     altText: 'Slide 1',
     caption: 'Slide 1'
   },

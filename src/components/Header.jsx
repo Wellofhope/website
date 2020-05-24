@@ -24,7 +24,8 @@ class Header extends Component {
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src= "/common/assets/img/background url.jpg"
+      width='100%' height="50%"
+      src= {require('./common/assets/img/background.jpg')}
       alt="First slide"
     />
     <Carousel.Caption>
@@ -39,25 +40,27 @@ class Header extends Component {
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src="https://web.facebook.com/photo/?fbid=297501223689279&set=a.297500860355982"
+      width='100%' height="50%"
+      src={require('./common/assets/img/spons.jpg')}
       alt="Third slide"
     />
 
     <Carousel.Caption>
-      <h3><Transition/></h3>
+      {/* <h3><Transition/></h3> */}
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src="https://web.facebook.com/photo/?fbid=297501223689279&set=a.297500860355982"
+      width='100%' height="50%"
+      src={require('./common/assets/img/house.jpg')}
       alt="Third slide"
     />
 
     <Carousel.Caption>
-      <h3><Transition/></h3>
-      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+      {/* <h3><Transition/></h3> */}
+      <p>Food Donations</p>
     </Carousel.Caption>
   </Carousel.Item>
 </Carousel>
