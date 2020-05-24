@@ -35,17 +35,15 @@ function App() {
       <br/>
       <Switch>
       <Route exact path="/" component={MainLayout} />
-
+      <Suspense fallback={<Loader/>}>
         <Route exact path="/gallery" component={Galler} />
         <Route exact path="/washrooms" component={Washrooms} />
         <Route exact path="/sewing" component={Sewing} />
         <Route exact path="/other projects" component={Farm} />
         <Route exact path="/water" component={Water} />
-        <Suspense fallback={<Loader/>}>
         <Route exact path="/house" component={House} />
         <Route exact path="/landandsettlement" component={Land} />
         <Route exact path="/school" component={School} />
-        </Suspense>
         <Route exact path="/sponsorship" component={Sponsor} />
         <Route exact path="/contact" component={Contact} />
         <Route exact path="/projects" component={Projects} />
@@ -54,8 +52,7 @@ function App() {
         <Route exact path="/blog" component={Blog}/>
         <Route exact path= "/causes" component={Causes}/>
         <Route exact path= "/aboutus" component={OurStory}/>
-
-        
+        </Suspense>
       </Switch>
       <Divider horizontal>End of Page</Divider>
       <Footer/>
