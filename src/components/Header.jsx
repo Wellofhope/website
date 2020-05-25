@@ -60,6 +60,19 @@ class Header extends Component {
 
     <Carousel.Caption>
       {/* <h3><Transition/></h3> */}
+      <p>Housing</p>
+    </Carousel.Caption>
+  </Carousel.Item>
+  <Carousel.Item>
+    <img
+      className="d-block w-100"
+      width='100%' height="50%"
+      src={require('./common/assets/img/food.jpg')}
+      alt="Third slide"
+    />
+
+    <Carousel.Caption>
+      {/* <h3><Transition/></h3> */}
       <p>Food Donations</p>
     </Carousel.Caption>
   </Carousel.Item>

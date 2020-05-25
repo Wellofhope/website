@@ -1,65 +1,107 @@
 import React, { Component } from 'react';
-import { Placeholder, Grid, Image } from 'semantic-ui-react'
+import { Button, Icon, Image, Item, Label } from 'semantic-ui-react'
 import  "./common/wellofhope.png"
 import Footer from './common/Footer'
 
-const src = 'wellofhope.png'
-
-// const items = [
-//     {
-//       childKey: 0,
-//       image: 'wellofhope.png',
-//       header: 'Header',
-//       description: 'Description',
-//       meta: 'Metadata',
-//       extra: 'Extra',
-//     },
-//     {
-//       childKey: 1,
-//       image: 'wellofhope.png',
-//       header: 'Header',
-//       description: 'Description',
-//       meta: 'Metadata',
-//       extra: 'Extra',
-//     },
-//   ]
+const paragraph = <Image src='https://react.semantic-ui.com/images/wireframe/short-paragraph.png' />
 
 
 const Testimonials = () => (
   <React.Fragment>
-  <Grid>
-    <Grid.Column width={4}>
-      <Image src='https://react.semantic-ui.com/images/wireframe/image.png' />
-    </Grid.Column>
-    <Grid.Column width={9}>
-      <Image src='https://react.semantic-ui.com/images/wireframe/paragraph.png' />
-    </Grid.Column>
-    <Grid.Column width={3}>
-      <Image src='https://react.semantic-ui.com/images/wireframe/media-paragraph.png' />
-    </Grid.Column>
-  </Grid>
-  <Grid>
-    <Grid.Column width={4}>
-      <Image src='https://react.semantic-ui.com/images/wireframe/image.png' />
-    </Grid.Column>
-    <Grid.Column width={9}>
-      <Image src='https://react.semantic-ui.com/images/wireframe/paragraph.png' />
-    </Grid.Column>
-    <Grid.Column width={3}>
-      <Image src='https://react.semantic-ui.com/images/wireframe/media-paragraph.png' />
-    </Grid.Column>
-  </Grid>
-  <Grid>
-    <Grid.Column width={4}>
-      <Image src='https://react.semantic-ui.com/images/wireframe/image.png' />
-    </Grid.Column>
-    <Grid.Column width={9}>
-      <Image src='https://react.semantic-ui.com/images/wireframe/paragraph.png' />
-    </Grid.Column>
-    <Grid.Column width={3}>
-      <Image src='https://react.semantic-ui.com/images/wireframe/media-paragraph.png' />
-    </Grid.Column>
-  </Grid>
+  <Item.Group divided>
+    <Item>
+      <Item.Image src= {require('./common/assets/img/wellofhope.png')} />
+
+      <Item.Content>
+        <Item.Header as='a'>Alumni Name</Item.Header>
+        <Item.Meta>
+          <span className='cinema'>Class of 2030</span>
+        </Item.Meta>
+        <Item.Description>{paragraph}</Item.Description>
+        <Item.Extra>
+          <Label>Engineer</Label>
+          <Label icon='student' content='2030' />
+        </Item.Extra>
+      </Item.Content>
+    </Item>
+
+    <Item>
+      <Item.Image src= {require('./common/assets/img/wellofhope.png')} />
+
+      <Item.Content>
+        <Item.Header as='a'>Alumni Name</Item.Header>
+        <Item.Meta>
+          <span className='cinema'>Class of 2030</span>
+        </Item.Meta>
+        <Item.Description>{paragraph}</Item.Description>
+        <Item.Extra>
+          <Label>Engineer</Label>
+          <Label icon='student' content='2030' />
+        </Item.Extra>
+      </Item.Content>
+    </Item>
+
+    <Item>
+      <Item.Image src= {require('./common/assets/img/wellofhope.png')} />
+
+      <Item.Content>
+        <Item.Header as='a'>Alumni Name</Item.Header>
+        <Item.Meta>
+          <span className='cinema'>Class of 2030</span>
+        </Item.Meta>
+        <Item.Description>{paragraph}</Item.Description>
+        <Item.Extra>
+          <Label>Engineer</Label>
+          <Label icon='student' content='2030' />
+        </Item.Extra>
+      </Item.Content>
+    </Item>
+    <Item>
+      <Item.Image src= {require('./common/assets/img/wellofhope.png')} />
+
+      <Item.Content>
+        <Item.Header as='a'>Alumni Name</Item.Header>
+        <Item.Meta>
+          <span className='cinema'>Class of 2030</span>
+        </Item.Meta>
+        <Item.Description>{paragraph}</Item.Description>
+        <Item.Extra>
+          <Label>Engineer</Label>
+          <Label icon='student' content='2030' />
+        </Item.Extra>
+      </Item.Content>
+    </Item>
+    <Item>
+      <Item.Image src= {require('./common/assets/img/wellofhope.png')} />
+
+      <Item.Content>
+        <Item.Header as='a'>Alumni Name</Item.Header>
+        <Item.Meta>
+          <span className='cinema'>Class of 2030</span>
+        </Item.Meta>
+        <Item.Description>{paragraph}</Item.Description>
+        <Item.Extra>
+          <Label>Engineer</Label>
+          <Label icon='student' content='2030' />
+        </Item.Extra>
+      </Item.Content>
+    </Item>
+    <Item>
+      <Item.Image src= {require('./common/assets/img/wellofhope.png')} />
+
+      <Item.Content>
+        <Item.Header as='a'>Alumni Name</Item.Header>
+        <Item.Meta>
+          <span className='cinema'>Class of 2030</span>
+        </Item.Meta>
+        <Item.Description>{paragraph}</Item.Description>
+        <Item.Extra>
+          <Label>Engineer</Label>
+          <Label icon='student' content='2030' />
+        </Item.Extra>
+      </Item.Content>
+    </Item>
+  </Item.Group>
 </React.Fragment>
 )
 

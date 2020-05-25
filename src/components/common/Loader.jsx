@@ -7,7 +7,7 @@ const Loading = () => {
         <React.Fragment>
              <Segment>
       <Dimmer active inverted>
-        <Loader size='mini'>Loading</Loader>
+        <Loader size='large'>Loading</Loader>
       </Dimmer>
 
       <Image src='https://react.semantic-ui.com/images/wireframe/short-paragraph.png' />

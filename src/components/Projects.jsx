@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
+import {Link} from "react-router-dom";
 import { Grid, Image,  Button, Card, Divider, Placeholder } from 'semantic-ui-react'
 
 class Projects extends Component {
     state = {  }
-    render() { 
-     
+    render() {
+
         return (
             <React.Fragment>
                 <section className="bg-light page-section" id="portfolio">
@@ -18,19 +19,29 @@ class Projects extends Component {
           <div className="row">
                <Grid relaxed columns={4}>
                         <Grid.Column>
-                          <Image  src= {require('./common/assets/img/background.jpg')} />
+                        <Link className="nav-link" to="/landandsettlement">
+                        <Image  src= {require('./common/assets/img/background.jpg')} />
+                            </Link>
                         </Grid.Column>
                         <Grid.Column>
-                          <Image src='https://react.semantic-ui.com/images/wireframe/image.png' />
+                        <Link className="nav-link" to="/school">
+                        <Image src= {require('./common/assets/img/spons.jpg')} />
+                            </Link>
                         </Grid.Column>
                         <Grid.Column>
-                          <Image src='https://react.semantic-ui.com/images/wireframe/image.png' />
+                        <Link className="nav-link" to="/other projects">
+                        <Image src= {require('./common/assets/img/food.jpg')} />
+                          </Link>
                         </Grid.Column>
                         <Grid.Column>
-                          <Image src='https://react.semantic-ui.com/images/wireframe/image.png' />
+                        <Link className="nav-link" to="/house">
+                        <Image src= {require('./common/assets/img/house.jpg')} />
+                         </Link>
                         </Grid.Column>
                         <Grid.Column>
-                          <Image src='https://react.semantic-ui.com/images/wireframe/image.png' />
+                        <Link className="nav-link" to="/gallery">
+                        <Image src= {require('./common/assets/img/donations.jpg')} />
+                           </Link>
                         </Grid.Column>
                 </Grid>
           </div>
@@ -40,5 +51,5 @@ class Projects extends Component {
           );
     }
 }
- 
+
 export default Projects;
