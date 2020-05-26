@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import {Link} from "react-router-dom";
+import { Form, Input, Label } from 'semantic-ui-react'
 import {Jumbotron, Button, Carousel} from 'react-bootstrap'
 import Transition from './common/Transition'
 // import Carousels from './common/Carousels'
@@ -54,7 +55,7 @@ class Header extends Component {
     <img
       className="d-block w-100"
       width='100%' height="50%"
-      src={require('./common/assets/img/house.jpg')}
+      src={require('./common/assets/img/construction.JPG')}
       alt="Third slide"
     />
 
