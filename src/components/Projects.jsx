@@ -18,11 +18,12 @@ class Projects extends Component {
               <h2 className="section-heading text-uppercase">Projects</h2>
               <h3 className="section-subheading text-muted">These are the projects that we have helped the community acquire.</h3>
             </div>
+                                 <Divider  color='teal'/>
           </div>
           <div className="row">
                <Grid relaxed columns={4}>
                         <Grid.Column>
-                        <Link className="nav-link" to="/landandsettlement">
+                        <Link className="nav-link"  to="/landandsettlement">
                         <Image  src= {require('./common/assets/img/land.JPG')} />
                         <Label basic color='blue' pointing>
                             Land And Settlement
