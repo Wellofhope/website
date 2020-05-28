@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import {Link} from "react-router-dom";
-import { Form, Input, Label } from 'semantic-ui-react'
-import {Jumbotron, Button, Carousel} from 'react-bootstrap'
-import Transition from './common/Transition'
+// import { Form, Input, Label } from 'semantic-ui-react'
+import { Carousel} from 'react-bootstrap'
+// import Transition from './common/Transition'
 // import Carousels from './common/Carousels'
 // import './common/background.jpg'
 
@@ -68,7 +68,7 @@ class Header extends Component {
     <img
       className="d-block w-100"
       width='100%' height="50%"
-      src={require('./common/assets/img/food.jpg')}
+      src={require('./common/assets/img/foods.jpg')}
       alt="Third slide"
     />
 
@@ -87,7 +87,7 @@ class Header extends Component {
     <div className="row">
       <div className="col-lg-12 text-center">
         <h2 className="section-heading text-uppercase">Who We Are</h2>
-        <h3 className="section-subheading text-muted"></h3>
+        {/* <h3 className="section-subheading text-muted"></h3> */}
       </div>
     </div>
     <div className="row text-center">
