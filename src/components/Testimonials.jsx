@@ -16,7 +16,7 @@ const Testimonials = () => (
     </Header>
   </div>
 
-  <Header as='h3' block>
+  <Header as='h3' block color='blue'>
   <Label color='pink'>Girls</Label>
   </Header>
 
@@ -182,7 +182,7 @@ const Testimonials = () => (
           <Item.Header as='a' >
           <Card.Description> SPONSORS:  </Card.Description>
        
-        <Label color='olive'>?????????</Label></Item.Header>
+        <Label color='olive'>Carla and Doug</Label></Item.Header>
         </Item.Description>
       </Modal.Description>
     </Modal.Content>
