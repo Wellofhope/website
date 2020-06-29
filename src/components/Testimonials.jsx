@@ -17,7 +17,7 @@ const Testimonials = () => (
   </div>
 
   <Header as='h3' block>
-    Block Header
+  <Label color='pink'>Girls</Label>
   </Header>
 
 <Card.Group >
