@@ -12,13 +12,12 @@ class Videos extends Component {
              <Card.Group>
                  <Card>
                     <Card.Content header='Well Of Hope International' />
-                    <Card.Content>
+                   
                     <Embed
                         id='7hFRLCLiFmc'
                         // placeholder='/images/image-16by9.png'
                         source='youtube'
                     />
-                    </Card.Content>
                     
                     <Card.Content extra>
                     <Icon name='eye' /> 4 Views   <Icon name='comments' /> 0 comments  <Icon name='user' /> 4 subscribers
