@@ -18,6 +18,7 @@ import OurStory from './components/OurStory';
 import Testimonials from './components/Testimonials'
 import Sponsor from './components/Sponsor'
 import Water from './components/Water'
+import Zipporah from './components/Zipporah'
 // import Land from './components/Land'
 // import School from './components/School'
 import Farm from './components/Farm'
@@ -50,6 +51,7 @@ function App() {
         <Route exact path="/videos" component={Videos}/>
         <Route exact path="/testimonials" component={Testimonials}/>
         <Route exact path="/blog" component={Blog}/>
+        <Route exact path='/zipporah' component={Zipporah}/>
         <Route exact path= "/causes" component={Causes}/>
         <Route exact path= "/aboutus" component={OurStory}/>
         </Suspense>

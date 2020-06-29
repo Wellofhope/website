@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Icon, Card, Button, Header,Container, Modal, Image, Item, Label, CardGroup } from 'semantic-ui-react'
+import {Icon, Card, Button, Header, Container, Modal, Image, Item, Label, CardGroup } from 'semantic-ui-react'
 import  "./common/wellofhope.png"
 import Footer from './common/Footer'
 

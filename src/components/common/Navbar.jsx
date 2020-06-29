@@ -51,10 +51,6 @@ const Navbar = () => {
                   Media
                 </a>
                 <div className="dropdown-menu" aria-labelledby="userAccount">
-                  <Link className="dropdown-item" to="/blog">
-                    Blog
-                  </Link>
-                  <Divider />
                   <Link className="dropdown-item" to="/videos">
                     Videos
                   </Link>
@@ -91,21 +87,38 @@ const Navbar = () => {
                   <Link className="dropdown-item" to="/water">
                     Water 
                   </Link>
-                  {/* <Divider />
-                  <Link className="dropdown-item" to="/school">
-                    School
-                  </Link> */}
                   <Divider />
                   <Link className="dropdown-item" to="/other projects">
                     Other Projects
-                  {/* </Link>
-                  <Divider />
-                  <Link className="dropdown-item" to="/sewing">
-                    Sewing
+                  </Link>
+                </div>
+              </li>
+              <li className="nav-item dropdown">
+                <a
+                  className="nav-link dropdown-toggle"
+                  href="#"
+                  id="dropdownId"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  Directors' Take And Testimonials
+                </a>
+                <div className="dropdown-menu" aria-labelledby="userAccount">
+                  <Link className="dropdown-item" to="/zipporah">
+                    Zipporah Kamau
                   </Link>
                   <Divider />
-                  <Link className="dropdown-item" to="/washrooms">
-                    Washrooms */}
+                  <Link className="dropdown-item" to="/school">
+                    Children Sponsorship/School
+                  </Link>
+                  <Divider />
+                  <Link className="dropdown-item" to="/water">
+                    Water 
+                  </Link>
+                  <Divider />
+                  <Link className="dropdown-item" to="/other projects">
+                    Other Projects
                   </Link>
                 </div>
               </li>
