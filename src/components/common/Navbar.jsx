@@ -109,12 +109,12 @@ const Navbar = () => {
                     Zipporah Kamau
                   </Link>
                   <Divider />
-                  <Link className="dropdown-item" to="/school">
+                  <Link className="dropdown-item" to="/flory">
                     The Florys
                   </Link>
                   <Divider />
-                  <Link className="dropdown-item" to="/water">
-                    Water 
+                  <Link className="dropdown-item" to="/teachers">
+                    Teachers
                   </Link>
                   <Divider />
                   <Link className="dropdown-item" to="/support">

@@ -24,6 +24,7 @@ import Support from './components/Support'
 import Farm from './components/Farm'
 import Sewing from './components/Sewing'
 import Washrooms from './components/Washrooms'
+import Teacher from './components/Teacher'
 
 const House = React.lazy(()=> import('./components/House'));
 const Land = React.lazy(()=> import('./components/Land'))
@@ -54,6 +55,7 @@ function App() {
         <Route exact path='/zipporah' component={Zipporah}/>
         <Route exact path='/stories' component={Stories}/>
         <Route exact path='/support' component={Support}/>
+        <Route exact path='/teachers' component={Teacher}/>
         <Route exact path= "/causes" component={Causes}/>
         <Route exact path= "/aboutus" component={OurStory}/>
         </Suspense>

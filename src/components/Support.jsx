@@ -10,7 +10,7 @@ class Support extends Component {
             <React.Fragment>
                    <div>
                     <Header as='h1' icon textAlign='center'>
-                    {/* <Icon name='users' circular /> */}
+                    <Label icon='handshake' circular />
                     <Header.Content> <Header as='h1' color='green'> THE SUPPORT GROUP </Header></Header.Content>
                     </Header>
                     <Divider />
