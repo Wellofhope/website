@@ -23,7 +23,7 @@ class Support extends Component {
                     <Container textAlign='justified'>
             
                             <p>
-                            <Label basic color='violet' as='h1'>A</Label>s the organisation grew, new challenges 
+                            <Label basic color='violet' as='h1'>As</Label> the organisation grew, new challenges 
                             emerged. When we started providing health care, healthy living talks and voluntary 
                             counseling and testing through nurses, it emerged that some women were living with
                             underlying medical conditions. Many of the women confessed that their spouses died 
