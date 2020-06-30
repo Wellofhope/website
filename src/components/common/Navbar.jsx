@@ -102,7 +102,7 @@ const Navbar = () => {
                   aria-haspopup="true"
                   aria-expanded="false"
                 >
-                  Directors' Take And Testimonials
+                  Directors' Take
                 </a>
                 <div className="dropdown-menu" aria-labelledby="userAccount">
                   <Link className="dropdown-item" to="/zipporah">
@@ -110,7 +110,7 @@ const Navbar = () => {
                   </Link>
                   <Divider />
                   <Link className="dropdown-item" to="/school">
-                    Children Sponsorship/School
+                    The Florys
                   </Link>
                   <Divider />
                   <Link className="dropdown-item" to="/water">

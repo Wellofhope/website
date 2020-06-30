@@ -1,5 +1,5 @@
 import React, { Component, Suspense } from 'react';
-import { Container, Image, Message } from 'semantic-ui-react'
+import { Container, Image, Modal, Card, Button, Header, Item, Label, Message, Divider } from 'semantic-ui-react'
 import Loader from './common/Loader'
 // import  "./common/wellofhope.png"
 let listOfImages= []
@@ -14,8 +14,40 @@ class Villages extends Component {
     render() { 
         return ( 
             <React.Fragment>
+                 <Container>
+            
+            <p>
+            A twin sister to Victoria Naini, Silvia has
+          enjoyed the benefits of love and support from
+          Frank and Dottie Bely since her first days in school. Being
+          </p>
+      
+          </Container>
                   <Container> 
-                  <Message color='blue' floating content='Way to go!' />
+                  <Card.Content extra>
+                      
+      <Modal color='violet' trigger={<Button>Word From Lynn</Button>}>
+    <Modal.Header><Label color='violet'>Lynn Diveley</Label></Modal.Header>
+    <Modal.Content image>
+      <Image wrapped size='medium' src='https://react.semantic-ui.com/images/avatar/large/rachel.png' />
+      <Modal.Description>
+        <Item.Description>
+          <Container>
+            
+            <p>
+            <Header as='h3' color='blue' textAlign='center'> Why Do I build Homes For Widows in Kenya? </Header>
+          </p>
+          <p textAlign='center'>
+              wfgheugijnejirntrjbnfjgnjhnfnaorne
+          </p>
+          <Header><Label color='violet'>LYNN DIVELEY</Label></Header>
+          </Container>
+        </Item.Description>
+      </Modal.Description>
+    </Modal.Content>
+  </Modal>
+      </Card.Content>
+      <Divider/>
                       <Suspense fallback={<Loader/>}>
                          <Image.Group size='small'>
                   {

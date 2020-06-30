@@ -24,7 +24,7 @@ class Zipporah extends Component {
                     <Container textAlign='justified'>
             
                             <p>
-                              When I got the dream to serve widows, I did not know that I was opening my life to so many
+                            <Label basic color='violet' as='h1'>W</Label>hen I got the dream to serve widows, I did not know that I was opening my life to so many
                                people  whom the Lord had prepared to bless through my calling. I had no idea that my life and
                                my family's life was taking a completely new turn as would be demonstrated later. For me 
                                , ths was only a fellowship to encourage all those widowed women who were moving through loss
@@ -49,6 +49,7 @@ class Zipporah extends Component {
                                 have been helped through this project have now become a blessing to their families and communities.
                                 It is such an honor for me to see what the Lord is doing through the child sponsorship.
                             </p>
+                            <Header><Label color='violet'>ZIPPORAH KAMAU</Label></Header>
                         
                      </Container>
                     </Grid.Column>
