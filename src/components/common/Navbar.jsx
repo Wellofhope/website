@@ -117,8 +117,8 @@ const Navbar = () => {
                     Water 
                   </Link>
                   <Divider />
-                  <Link className="dropdown-item" to="/other projects">
-                    Other Projects
+                  <Link className="dropdown-item" to="/support">
+                    Support Group
                   </Link>
                 </div>
               </li>

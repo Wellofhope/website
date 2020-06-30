@@ -62,11 +62,17 @@ class OurStory extends Component {
               </div>
               <div className="timeline-panel">
                 <div className="timeline-heading">
-                  <h4>2009-2011</h4>
+                  <h4>2002</h4>
                   <h4 className="subheading">Our Humble Beginnings</h4>
                 </div>
                 <div className="timeline-body">
-                  <p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                  <p className="text-muted">
+                  In this year the Lord called me to serve Him through the widows' ministry which later came to be known as, 
+                    "<Label color='blue'>THE WELL OF HOPE INTERNATIONAL</Label>". This came to me in form of a dream. In that dream I
+                    was dead and I could see all that was happening. I saw my family and friends preparing to lay me to rest.
+                  When I woke up from my dream, I was changed Zipporah.
+                  </p>
+                  <Header><Label color='violet'>ZIPPORAH KAMAU</Label></Header>
                 </div>
               </div>
             </li>
@@ -76,11 +82,18 @@ class OurStory extends Component {
               </div>
               <div className="timeline-panel">
                 <div className="timeline-heading">
-                  <h4>March 2011</h4>
-                  <h4 className="subheading">An Agency is Born</h4>
+                  {/* <h4>2002</h4> */}
+                  <h4 className="subheading">Birth Of Well Of Hope</h4>
                 </div>
                 <div className="timeline-body">
-                  <p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                  <p className="text-muted">
+                   The Lord helped me to initiate "<Label color='blue'>THE WELL OF HOPE INTERNATIONAL</Label>" which has touched,
+                   changed and uplifted many lives. I ma grateful to God that I am still dedicated to our family business and at 
+                   the same time shrewd and focused in my mission to uplift and bring hope to the lives of the widows. Through the 
+                   support I get from my husband Nathaniel who has vast experience in the ministering the word of God, we have continued 
+                   to witness the Lord's blessings in our marriage as we touch the lives of the less fortunate people in our society.
+                  </p>
+                  <Header><Label color='violet'>ZIPPORAH KAMAU</Label></Header>
                 </div>
               </div>
             </li>
@@ -90,11 +103,16 @@ class OurStory extends Component {
               </div>
               <div className="timeline-panel">
                 <div className="timeline-heading">
-                  <h4>December 2012</h4>
-                  <h4 className="subheading">Transition to Full Service</h4>
+                  <h4> 2012</h4>
+                  <h4 className="subheading">Housing Project</h4>
                 </div>
                 <div className="timeline-body">
-                  <p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                  <p className="text-muted">
+                    The NC3 group heard about our mission to build houses and came prepared to build two houses
+                    Zipporah and her husband were ready to build one house. The money was handed to Zipporah and Nat in their summer
+                    trip to the USA . After building one house they were left with some money which they topped up with their own 
+                    money and built another one.
+                  </p>
                 </div>
               </div>
             </li>
@@ -104,11 +122,15 @@ class OurStory extends Component {
               </div>
               <div className="timeline-panel">
                 <div className="timeline-heading">
-                  <h4>July 2014</h4>
-                  <h4 className="subheading">Phase Two Expansion</h4>
+                  {/* <h4>July 2014</h4> */}
+                  <h4 className="subheading">Teams</h4>
                 </div>
                 <div className="timeline-body">
-                  <p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                  <p className="text-muted">
+                    There are always mission trips to Kenya mainly from two groups the <Header><Label color='purple'>VIRGINIA TEAM</Label></Header> and the 
+                    <Header><Label color='teal'>OHIO TEAM</Label></Header>. They mainly come to see how the widows are doing and what is needed to better 
+                    their lives
+                  </p>
                 </div>
               </div>
             </li>
