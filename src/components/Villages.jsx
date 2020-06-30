@@ -1,4 +1,5 @@
 import React, { Component, Suspense } from 'react';
+import {Link} from "react-router-dom";
 import { Container, Image, Modal, Card, Button, Header, Item, Label, Message, Divider } from 'semantic-ui-react'
 import Loader from './common/Loader'
 // import  "./common/wellofhope.png"
@@ -17,7 +18,7 @@ class Villages extends Component {
                  <Container>
             
             <p>
-            Someone once asled me why I help women in Kenya get homes when we have people in the UNITED STATES 
+            Someone once asked me why I help women in Kenya get homes when we have people in the UNITED STATES 
               who need homes . I say it is where ...
           </p>
       
@@ -37,7 +38,12 @@ class Villages extends Component {
             <Header as='h3' color='blue' textAlign='center'> Why Do I build Homes For Widows in Kenya? </Header>
           </p>
           <p textAlign='center'>
-              
+              ... God has led me.
+          </p>
+          <p textAlign='center'>
+               You are a woman who has just been married through an arranged marriage, you must now leave your
+               own family and more into the home of your husband's family. You have not been provided with an 
+               education and as far as you know you have no rights.
           </p>
           <Header><Label color='violet'>LYNN DIVELEY</Label></Header>
           </Container>
@@ -48,6 +54,14 @@ class Villages extends Component {
       </Card.Content>
       <Divider/>
                       <Suspense fallback={<Loader/>}>
+                      <Image.Group size='small'>
+                           <Link className="nav-link"  to="/stories">
+                        <Image  src= {require('./common/assets/img/land.JPG')} />
+                        <Label basic color='blue'  pointing='left'>
+                            Settlement stories
+                          </Label>
+                            </Link>
+                            </Image.Group>
                          <Image.Group size='small'>
                   {
                     listOfImages.map(
