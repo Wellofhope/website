@@ -17,16 +17,15 @@ class Villages extends Component {
                  <Container>
             
             <p>
-            A twin sister to Victoria Naini, Silvia has
-          enjoyed the benefits of love and support from
-          Frank and Dottie Bely since her first days in school. Being
+            Someone once asled me why I help women in Kenya get homes when we have people in the UNITED STATES 
+              who need homes . I say it is where ...
           </p>
       
           </Container>
                   <Container> 
                   <Card.Content extra>
                       
-      <Modal color='violet' trigger={<Button>Word From Lynn</Button>}>
+      <Modal color='violet' trigger={<Button>Click for more</Button>}>
     <Modal.Header><Label color='violet'>Lynn Diveley</Label></Modal.Header>
     <Modal.Content image>
       <Image wrapped size='medium' src='https://react.semantic-ui.com/images/avatar/large/rachel.png' />
@@ -38,7 +37,7 @@ class Villages extends Component {
             <Header as='h3' color='blue' textAlign='center'> Why Do I build Homes For Widows in Kenya? </Header>
           </p>
           <p textAlign='center'>
-              wfgheugijnejirntrjbnfjgnjhnfnaorne
+              
           </p>
           <Header><Label color='violet'>LYNN DIVELEY</Label></Header>
           </Container>
