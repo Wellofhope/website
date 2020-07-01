@@ -59,13 +59,13 @@ on different dates were a true representation of the American love for Kenya.
     efforts, widows got blessed in various areas in their lives.
 </p>
 <p textAlign='center'>
-<Header as='h5'color='blue'>
+<Header as='h5'color='violet'>
     "This was my 4th trip to Kenya, having been
      introduced to Nat and Zippy and the WELL OF 
     HOPE during the first visit. it's amazing how God can use people 
     of different countries, different beliefs and
     backgrounds to do His work-- feeding, clothing and housing the poor, the hungry, the widows and children."
-    <p><Label basic color='purple'>DAVE DIVELEY</Label></p>
+    <p><Label basic color='black'>DAVE DIVELEY</Label></p>
     </Header>
     
     
