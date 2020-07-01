@@ -113,6 +113,10 @@ const Navbar = () => {
                     The Florys
                   </Link>
                   <Divider />
+                  <Link className="dropdown-item" to="/benedict">
+                    Christ'n MaryBeth Benedict
+                  </Link>
+                  <Divider />
                   <Link className="dropdown-item" to="/teachers">
                     Teachers
                   </Link>
