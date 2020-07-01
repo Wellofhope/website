@@ -162,7 +162,7 @@ const Testimonials = () => (
       <Modal trigger={<Button>Testimonial</Button>}>
     <Modal.Header><Label color='pink'>CATHERINE AKINYI</Label></Modal.Header>
     <Modal.Content image>
-      <Image wrapped size='large' src='https://react.semantic-ui.com/images/avatar/large/rachel.png' />
+      <Image wrapped size='large' src={require('./common/assets/img/wellofhope.png')} />
       <Modal.Description>
         <Header><Label color='pink'>CATHERINE AKINYI</Label></Header>
         <Item.Description>

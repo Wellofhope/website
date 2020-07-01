@@ -127,6 +127,11 @@ const Navbar = () => {
                 </div>
               </li>
               <li className="nav-item">
+                <Link className="nav-link" to="/teams">
+                  Missions
+                </Link>
+              </li>
+              <li className="nav-item">
                 <Link className="nav-link" to="/aboutus">
                   About Us
                 </Link>

@@ -50,7 +50,7 @@ class Flory extends Component {
                               does and continue to trust the Father to prompt willing participants. All for His glory, and may each one go where
                               He leads.
                             </p>
-                            <Header><Label color='violet'>The Florys</Label></Header>
+                            <Header><Label color='violet'>Harold And Nancy Flory</Label></Header>
                         
                      </Container>
                     </Grid.Column>

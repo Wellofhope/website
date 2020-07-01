@@ -21,6 +21,7 @@ import Water from './components/Water'
 import Zipporah from './components/Zipporah'
 import Stories from './components/Stories'
 import Benedict from './components/Benedict'
+import MissionTeams from './components/MissionTeams'
 import Flory from './components/Flory'
 import Support from './components/Support'
 import Farm from './components/Farm'
@@ -60,6 +61,7 @@ function App() {
         <Route exact path='/support' component={Support}/>
         <Route exact path='/teachers' component={Teacher}/>
         <Route exact path='/benedict' component={Benedict}/>
+        <Route exact path='/teams' component={MissionTeams}/>
         <Route exact path='/flory' component={Flory}/>
         <Route exact path= "/causes" component={Causes}/>
         <Route exact path= "/aboutus" component={OurStory}/>
