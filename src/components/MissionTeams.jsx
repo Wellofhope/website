@@ -47,12 +47,12 @@ class MissionTeams extends Component {
     <Header.Content> <Header as='h2' color='blue'> <Label basic color='green'>THE VIRGINIA TEAM</Label> </Header></Header.Content>
     </Header>
     <Segment>
-<Image src= {require('./common/assets/img/spons.jpg')} size='medium' floated='left' />
+<Image src= {require('./common/assets/img/team.jpg')} size='medium' floated='left' />
 <p textAlign='center'>
 The arrival of <Label basic color='green'>THE VIRGINIA TEAM</Label>. The unbeatable twelve who landed in Kenya 
 on different dates were a true representation of the American love for Kenya.
 </p>
-<Image src= {require('./common/assets/img/spons.jpg')} size='medium' floated='right' />
+<Image src= {require('./common/assets/img/virginia.jpg')} size='medium' floated='right' />
 <p textAlign='center'>
     Some members of this team started falling sick, one after the other. We watched helplessly in this time of trial.
     However, we overcame all these challenges and were still able to provide for many of the widows. Because of this team's 
