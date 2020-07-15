@@ -35,14 +35,15 @@ const Navbar = () => {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/gallery">
+                {/* <Link className="nav-link" to="https://uploadhope.netlify.app/">
                   Gallery
-                </Link>
+                </Link> */}
+                <a target="_blank" className="nav-link" href="https://hope-gallery.netlify.app/">Gallery</a>
               </li>
               <li className="nav-item dropdown">
                 <a
                   className="nav-link dropdown-toggle"
-                  href="#"
+                  href=""
                   id="dropdownId"
                   data-toggle="dropdown"
                   aria-haspopup="true"
@@ -51,9 +52,9 @@ const Navbar = () => {
                   Media
                 </a>
                 <div className="dropdown-menu" aria-labelledby="userAccount">
-                  <Link className="dropdown-item" to="/blog">
-                    Blog
-                  </Link>
+                {/* <Link className="dropdown-item" to="/blog">
+                  Blog
+                </Link> */}
                   <Divider />
                   <Link className="dropdown-item" to="/videos">
                     Videos

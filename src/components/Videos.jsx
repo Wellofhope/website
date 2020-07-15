@@ -9,7 +9,7 @@ class Videos extends Component {
     render() {
         return (
          <React.Fragment>
-             <Card.Group>
+             {/* <Card.Group>
                  <Card>
                     <Card.Content header='Well Of Hope International' />
                     <Card.Content>
@@ -40,7 +40,17 @@ class Videos extends Component {
                     <Icon name='eye' /> 5 Views   <Icon name='comments' /> 0 comments  <Icon name='user' /> 4 subscribers
                     </Card.Content>
                 </Card> 
-                </Card.Group>  
+                </Card.Group>   */}
+                
+                <div className="search"><ReactPlayer
+url="https://www.youtube.com/watch?v=7hFRLCLiFmc"
+/></div>
+
+<b/>
+<div className="search"> <ReactPlayer
+url="https://www.youtube.com/watch?v=wFlLxOon2vs"
+/></div> 
+
             <Footer/>
         </React.Fragment>
          );
@@ -51,12 +61,5 @@ export default Videos;
 
 
 
-{/* <div className="search"><ReactPlayer
-url="https://www.youtube.com/watch?v=7hFRLCLiFmc"
-/></div>
 
-<b/>
-<div className="search"> <ReactPlayer
-url="https://www.youtube.com/watch?v=wFlLxOon2vs"
-/></div> */}
 
