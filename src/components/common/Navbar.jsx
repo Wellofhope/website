@@ -52,13 +52,10 @@ const Navbar = () => {
                   Media
                 </a>
                 <div className="dropdown-menu" aria-labelledby="userAccount">
-<<<<<<< HEAD
                 {/* <Link className="dropdown-item" to="/blog">
                   Blog
                 </Link> */}
                   <Divider />
-=======
->>>>>>> 4a56fd5246eb4fb058b993f07dd37ccef3201266
                   <Link className="dropdown-item" to="/videos">
                     Videos
                   </Link>
