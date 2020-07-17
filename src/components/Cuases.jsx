@@ -581,23 +581,21 @@ class Causes extends Component {
                       would need more commitment and dedication. 
                     </p>
                     <p textAlign="center">
-                      As I look at these ladies in the eyes I see their utter
-                      hopelessness and my heart breaks. Compared to them I have
-                      so much and they have absolutely nothing. How can I not be
-                      moved to help?
+                      I had no idea where He would lead me. Today there is no doubt that the Lord wanted
+                       me to serve Him in a different pulpit where my life would change completely to 
+                       become the helper in accomplishing the dream and the vision that He put in my 
+                       wife's heart.
                     </p>
                     <p textAlign="center">
-                      It only takes a small plot of land, small home ($1,700), a
-                      small garden, a few chickens, a water tank(much of this
-                      provided by our discarded shoes which we ship each year).
-                      Now when I go to visit I see JOY. I see friendships bloom.
-                      I see HOPE. I see lives changed.
+                     It is such an encouragement that when the Lord calls you to serve Him; He brings
+                     the right people to serve with you. I am humbled by all the people that the Lord
+                     has put together to make this vision a reality.
                     </p>
                   </Modal.Description>
                 </Modal.Content>
               </Modal>
               <Header>
-                <Label color="violet">LYNN DIVELEY</Label>
+                <Label color="violet">NATHANIEL KARIUKI</Label>
               </Header>
             </Grid.Column>
             <Grid.Column>
