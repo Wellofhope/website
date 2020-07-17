@@ -52,10 +52,13 @@ const Navbar = () => {
                   Media
                 </a>
                 <div className="dropdown-menu" aria-labelledby="userAccount">
+<<<<<<< HEAD
                 {/* <Link className="dropdown-item" to="/blog">
                   Blog
                 </Link> */}
                   <Divider />
+=======
+>>>>>>> 4a56fd5246eb4fb058b993f07dd37ccef3201266
                   <Link className="dropdown-item" to="/videos">
                     Videos
                   </Link>
@@ -92,23 +95,49 @@ const Navbar = () => {
                   <Link className="dropdown-item" to="/water">
                     Water 
                   </Link>
-                  {/* <Divider />
-                  <Link className="dropdown-item" to="/school">
-                    School
-                  </Link> */}
                   <Divider />
                   <Link className="dropdown-item" to="/other projects">
                     Other Projects
-                  {/* </Link>
-                  <Divider />
-                  <Link className="dropdown-item" to="/sewing">
-                    Sewing
-                  </Link>
-                  <Divider />
-                  <Link className="dropdown-item" to="/washrooms">
-                    Washrooms */}
                   </Link>
                 </div>
+              </li>
+              <li className="nav-item dropdown">
+                <a
+                  className="nav-link dropdown-toggle"
+                  href="#"
+                  id="dropdownId"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  Directors' Take
+                </a>
+                <div className="dropdown-menu" aria-labelledby="userAccount">
+                  <Link className="dropdown-item" to="/zipporah">
+                    Zipporah Kamau
+                  </Link>
+                  <Divider />
+                  <Link className="dropdown-item" to="/flory">
+                    The Florys
+                  </Link>
+                  <Divider />
+                  <Link className="dropdown-item" to="/benedict">
+                    Christ'n MaryBeth Benedict
+                  </Link>
+                  <Divider />
+                  <Link className="dropdown-item" to="/teachers">
+                    Teachers
+                  </Link>
+                  <Divider />
+                  <Link className="dropdown-item" to="/support">
+                    Support Group
+                  </Link>
+                </div>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/teams">
+                  Missions
+                </Link>
               </li>
               <li className="nav-item">
                 <Link className="nav-link" to="/aboutus">

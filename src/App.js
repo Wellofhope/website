@@ -18,11 +18,17 @@ import OurStory from './components/OurStory';
 import Testimonials from './components/Testimonials'
 import Sponsor from './components/Sponsor'
 import Water from './components/Water'
-// import Land from './components/Land'
-// import School from './components/School'
+import Zipporah from './components/Zipporah'
+import Stories from './components/Stories'
+import Benedict from './components/Benedict'
+import MissionTeams from './components/MissionTeams'
+import Flory from './components/Flory'
+import Support from './components/Support'
 import Farm from './components/Farm'
 import Sewing from './components/Sewing'
 import Washrooms from './components/Washrooms'
+import Teacher from './components/Teacher'
+
 
 const House = React.lazy(()=> import('./components/House'));
 const Land = React.lazy(()=> import('./components/Land'))
@@ -50,6 +56,13 @@ function App() {
         <Route exact path="/videos" component={Videos}/>
         <Route exact path="/testimonials" component={Testimonials}/>
         <Route exact path="/blog" component={Blog}/>
+        <Route exact path='/zipporah' component={Zipporah}/>
+        <Route exact path='/stories' component={Stories}/>
+        <Route exact path='/support' component={Support}/>
+        <Route exact path='/teachers' component={Teacher}/>
+        <Route exact path='/benedict' component={Benedict}/>
+        <Route exact path='/teams' component={MissionTeams}/>
+        <Route exact path='/flory' component={Flory}/>
         <Route exact path= "/causes" component={Causes}/>
         <Route exact path= "/aboutus" component={OurStory}/>
         </Suspense>

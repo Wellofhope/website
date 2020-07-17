@@ -14,13 +14,16 @@ class Contact extends Component {
     <Container textAlign='justified' color='teal'>
       <Divider  color='teal'/>
       <p color='teal'>
-      <Header as='h4'>  With the help of other partners, such as Well of Hope America, individual sponsors and the founder, Nathaniel Kariuki, WOHI has impacted lives positively.
-Well of Hope International is committed to the vision to ensure the empowerment of the underprivileged in Kenya through the provision of economical supports, educational opportunities, health services, and safe housing, while upholding the rights of everyone served.
+      <Header as='h4'>  With the help of other partners, such as Well of Hope America, individual sponsors and 
+      the founder, Nathaniel Kariuki, WOHI has impacted lives positively.
+      Well of Hope International is committed to the vision to ensure the empowerment of the 
+      underprivileged in Kenya through the provision of economical supports, educational opportunities, health services, 
+      and safe housing, while upholding the rights of everyone served.
 
-Well of Hope International is open to help and support by willing donors that have the vision of helping the underprivileged.
-Thanks to all that support the mission.
+      Well of Hope International is open to help and support by willing donors that have the vision of helping the underprivileged.
+      Thanks to all that support the mission.
 
-with our events and confirm your presence.</Header>
+      with our events and confirm your presence.</Header>
     
 
 
