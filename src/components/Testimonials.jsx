@@ -876,7 +876,7 @@ const Testimonials = () => (
         />
         <Item.Header as='a' >NAME:  
         <br/>
-        <Label color='teal'>DALTON ONGECHE OGINA</Label></Item.Header>
+        <Label color='teal'>DALTON ONGECHE </Label></Item.Header>
         <br/>
         <Item.Meta>
           <span className='cinema'>CLASS OF:  
