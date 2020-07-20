@@ -483,10 +483,13 @@ class Causes extends Component {
                   </p> */}
                 </Grid.Column>
                 <p>
-                A friend told me about a village called Lemaloi where I could lease land annually for 1000Kshs per acre.
-             I was able to lease two acres where I brought up my children. She also told me of a fellowship meeting for 
-             widows at Mlimani. I attended the next meeting. These meetings really strengthened me because I found a 
-             place where I could relate with people who understood my epxeriences.
+                  A friend told me about a village called Lemaloi where I could
+                  lease land annually for 1000Kshs per acre. I was able to lease
+                  two acres where I brought up my children. She also told me of
+                  a fellowship meeting for widows at Mlimani. I attended the
+                  next meeting. These meetings really strengthened me because I
+                  found a place where I could relate with people who understood
+                  my epxeriences.
                 </p>
               </Container>
               <Modal trigger={<Button>Read More</Button>} centered={false}>
@@ -506,20 +509,26 @@ class Causes extends Component {
                     src="https://react.semantic-ui.com/images/avatar/large/rachel.png"
                   />
                   <Modal.Description>
-                  <p textAlign='center'>
-             A friend told me about a village called Lemaloi where I could lease land annually for 1000Kshs per acre.
-             I was able to lease two acres where I brought up my children. She also told me of a fellowship meeting for 
-             widows at Mlimani. I attended the next meeting. These meetings really strengthened me because I found a 
-             place where I could relate with people who understood my epxeriences.
-          </p>
+                    <p textAlign="center">
+                      A friend told me about a village called Lemaloi where I
+                      could lease land annually for 1000Kshs per acre. I was
+                      able to lease two acres where I brought up my children.
+                      She also told me of a fellowship meeting for widows at
+                      Mlimani. I attended the next meeting. These meetings
+                      really strengthened me because I found a place where I
+                      could relate with people who understood my epxeriences.
+                    </p>
 
-          <p textAlign='center'>
-              In one of the meetings, Nat called out a list of the people who were going to benefit by getting land.
-              I was among them. Words can't really explain what joy filled my heart. I had finally found a place to 
-              call home. I am happy for the toilet, chicken coop and the land that was given to me.
-              No words can match what I feel when I think of Nat and Zipporah and what they have done for my family.
-              My prayer is that God will forever bless them.
-          </p>
+                    <p textAlign="center">
+                      In one of the meetings, Nat called out a list of the
+                      people who were going to benefit by getting land. I was
+                      among them. Words can't really explain what joy filled my
+                      heart. I had finally found a place to call home. I am
+                      happy for the toilet, chicken coop and the land that was
+                      given to me. No words can match what I feel when I think
+                      of Nat and Zipporah and what they have done for my family.
+                      My prayer is that God will forever bless them.
+                    </p>
                   </Modal.Description>
                 </Modal.Content>
               </Modal>
@@ -552,10 +561,11 @@ class Causes extends Component {
                   </p>
                 </Grid.Column>
                 <p>
-                 In 1982, when I went to Bible school, I knew my life would be spent in the pulpit,
-                  preaching the word of God. I was passionate about being a pastor and taking care 
-                  of the church. My heart was to preach the true gospel and to bring people to Christ.
-                  I had no plans to go beyond that boundary. 
+                  In 1982, when I went to Bible school, I knew my life would be
+                  spent in the pulpit, preaching the word of God. I was
+                  passionate about being a pastor and taking care of the church.
+                  My heart was to preach the true gospel and to bring people to
+                  Christ. I had no plans to go beyond that boundary.
                 </p>
               </Container>
               <Modal trigger={<Button>Read More</Button>} centered={false}>
@@ -576,20 +586,23 @@ class Causes extends Component {
                   />
                   <Modal.Description>
                     <p textAlign="center">
-                      That was the Nat I saw in myself becoming, but little did I know the Lord
-                      was preparing me like he did with Moses because I was to take a bigger role that
-                      would need more commitment and dedication. 
+                      That was the Nat I saw in myself becoming, but little did
+                      I know the Lord was preparing me like he did with Moses
+                      because I was to take a bigger role that would need more
+                      commitment and dedication.
                     </p>
                     <p textAlign="center">
-                      I had no idea where He would lead me. Today there is no doubt that the Lord wanted
-                       me to serve Him in a different pulpit where my life would change completely to 
-                       become the helper in accomplishing the dream and the vision that He put in my 
-                       wife's heart.
+                      I had no idea where He would lead me. Today there is no
+                      doubt that the Lord wanted me to serve Him in a different
+                      pulpit where my life would change completely to become the
+                      helper in accomplishing the dream and the vision that He
+                      put in my wife's heart.
                     </p>
                     <p textAlign="center">
-                     It is such an encouragement that when the Lord calls you to serve Him; He brings
-                     the right people to serve with you. I am humbled by all the people that the Lord
-                     has put together to make this vision a reality.
+                      It is such an encouragement that when the Lord calls you
+                      to serve Him; He brings the right people to serve with
+                      you. I am humbled by all the people that the Lord has put
+                      together to make this vision a reality.
                     </p>
                   </Modal.Description>
                 </Modal.Content>
@@ -607,16 +620,15 @@ class Causes extends Component {
                   <p>
                     <Header as="h3" color="blue" textAlign="center">
                       {" "}
-                      Why Do I build Homes For Widows in Kenya?{" "}
                     </Header>
                   </p>
                 </Grid.Column>
                 <p>
-                  God has led me. You are a woman who has just been married
-                  through an arranged marriage, you must now leave your own
-                  family and more into the home of your husband's family. You
-                  have not been provided with an education and as far as you
-                  know you have no rights
+                  I will never forget the day ZIpporah approached me and shared
+                  with me the burden she has with widows and how the Lord wanted
+                  her give them a listening ear and be their mouth piece. Having
+                  been raised by a widow, this moved me so much because I know
+                  the challenges my mum had bringing us up.
                 </p>
               </Container>
               <Modal trigger={<Button>Read More</Button>} centered={false}>
@@ -637,32 +649,51 @@ class Causes extends Component {
                   />
                   <Modal.Description>
                     <p textAlign="center">
-                      . You have children and along the way you get sick. Your
-                      husband succumbs to the sickness and his family now fears
-                      you. There are no social programs. There are no shelters.
-                      You have no education . You scrape together $5 a month for
-                      rent in a one room, dirt floor, tin shack. You scrape
-                      together a little money for some maize for you and your
-                      children. You may have done this for more than 15 years!
+                      When Zipporah shared with me this vision, I knew this
+                      originated from God because off the passion she had in
+                      fulfilling her mission and the evident tears that rolled
+                      down her cheeks. I never hesitated to pledge my support
+                      for this noble course which I assist in many ways to date.
                     </p>
                     <p textAlign="center">
-                      As I look at these ladies in the eyes I see their utter
-                      hopelessness and my heart breaks. Compared to them I have
-                      so much and they have absolutely nothing. How can I not be
-                      moved to help?
+                      I feel so happy to be part of this ministry which is
+                      touching and transforming the lives of the widows not only
+                      through the word but of God but by showing them that there
+                      is someone who cares and willing to give them a listening
+                      ear and a shoulder to cry or lean on. Well Of Hope has
+                      grown ever since its inititation and so many programs run
+                      under it.
                     </p>
                     <p textAlign="center">
-                      It only takes a small plot of land, small home ($1,700), a
-                      small garden, a few chickens, a water tank(much of this
-                      provided by our discarded shoes which we ship each year).
-                      Now when I go to visit I see JOY. I see friendships bloom.
-                      I see HOPE. I see lives changed.
+                      When I last visited Kenya with my wife, together with Nat
+                      and Zipporah were involved in a feeding program. I
+                      remember how the faces of those dear widows shone with joy
+                      and hope when it dawned on them that someone cares for
+                      them in this difficult situation. The climax came when I
+                      witnessed women bursting in shouts and tears of joy saying
+                      that they never knew they could ever own a place of their
+                      own.
+                    </p>
+                    <p textAlign="center">
+                      Thank you Nat and Zipporah, thank you for giving my wife
+                      and I an opportunity to serve the Lord In the well of
+                      hope. Its the only thing that gives me a lot of
+                      fulfillment and for this we are really honored.
+                    </p>
+                    <p>
+                      {" "}
+                      <Label basic color="violet">
+                        {" "}
+                        <Label color="violet">JOHN 7:38</Label> "Whoever
+                        believes in me, as the scripture has said, streams of
+                        living water will flow from within him"
+                      </Label>
                     </p>
                   </Modal.Description>
                 </Modal.Content>
               </Modal>
               <Header>
-                <Label color="violet">LYNN DIVELEY</Label>
+                <Label color="violet">PASTOR JOHN KIPEEN</Label>
               </Header>
             </Grid.Column>
             <Grid.Column>
@@ -674,17 +705,23 @@ class Causes extends Component {
                   <p>
                     <Header as="h3" color="blue" textAlign="center">
                       {" "}
-                      Why Do I build Homes For Widows in Kenya?{" "}
+                      SERVING HUMANITY{" "}
                     </Header>
                   </p>
                 </Grid.Column>
                 <p>
-                  God has led me. You are a woman who has just been married
-                  through an arranged marriage, you must now leave your own
-                  family and more into the home of your husband's family. You
-                  have not been provided with an education and as far as you
-                  know you have no rights
+                  {" "}
+                  <Label basic color="violet">
+                    {" "}
+                    <Label color="violet">Mathew 25:35-37</Label>
+                    "For I was hungry and you gave me something to eat, I was
+                    thirsty and you gave me something to drink, I was a stranger
+                    and you invited me in, I needed clothes and you clothed me,
+                    I was sick and you looked after me, I was in prison and you
+                    came to visit me "
+                  </Label>
                 </p>
+                <br />
               </Container>
               <Modal trigger={<Button>Read More</Button>} centered={false}>
                 <Modal.Header>
@@ -692,7 +729,7 @@ class Causes extends Component {
                   <p>
                     <Header as="h3" color="blue" textAlign="center">
                       {" "}
-                      Why Do I build Homes For Widows in Kenya?{" "}
+                      SERVING HUMANITY{" "}
                     </Header>
                   </p>
                 </Modal.Header>
@@ -703,33 +740,45 @@ class Causes extends Component {
                     src="https://react.semantic-ui.com/images/avatar/large/rachel.png"
                   />
                   <Modal.Description>
-                    <p textAlign="center">
-                      . You have children and along the way you get sick. Your
-                      husband succumbs to the sickness and his family now fears
-                      you. There are no social programs. There are no shelters.
-                      You have no education . You scrape together $5 a month for
-                      rent in a one room, dirt floor, tin shack. You scrape
-                      together a little money for some maize for you and your
-                      children. You may have done this for more than 15 years!
+                    <p textAlign="center">Religion that God our father accepts as pure and faultless
+                    is this: to look after orphans and widows in their distress and to keep one self
+                    from being polluted by the world... James 1:27
                     </p>
                     <p textAlign="center">
-                      As I look at these ladies in the eyes I see their utter
-                      hopelessness and my heart breaks. Compared to them I have
-                      so much and they have absolutely nothing. How can I not be
-                      moved to help?
+                     Serving humanity has always been the heart beat of God. The world is full of peoplewho are living 
+                     below the poverty level. Even meeting their basic needs become a very big challenge to them. This may
+                     be attributed to lack of education and opportunities while others are just outright lazy. At the same 
+                     time I believe others are also there so that God can create a conducive environment for somebody to 
+                     become a vessel of honor and be used by God to meet their needs. THe Bible says "... you will always 
+                     have the poor in your midst." and yet God Almighty can make everybody able to meet their own basic
+                     needs.
                     </p>
                     <p textAlign="center">
-                      It only takes a small plot of land, small home ($1,700), a
-                      small garden, a few chickens, a water tank(much of this
-                      provided by our discarded shoes which we ship each year).
-                      Now when I go to visit I see JOY. I see friendships bloom.
-                      I see HOPE. I see lives changed.
+                     However, the bottom-line is who will allow God to use them to become Hope to the hopeless? THey cry unto
+                     God for help. I have seen the demonstration of these scriptures through the Well Of Hope International.
+                     I have interacted with the directors so closely hence got the opportunity to know the impact this ministry
+                     has brought to many needy families.
                     </p>
+                    <p textAlign="center">
+                     I am personally proud to be associated with the Well Of Hope International and I pray that God open more doors
+                     for this great ministry to be able to fulfill its calling. God bless Zipporah and Nathaniel and all the well wishers
+                     and friends of Well Of Hope.
+                    </p>
+                    <p>
+                  {" "}
+                  <Label basic color="violet">
+                    {" "}
+                    <Label color="violet">Mathew 24:45-47</Label>
+                    "Who Then is the faithful and wise servant, whom the master has put in charge of the servants in his household
+                    to give them their food at the proper time? It will be good for that servant whose master finds him doing so when 
+                    he returns. I tell you the truth; He will put him in charge of all His possessions "
+                  </Label>
+                </p>
                   </Modal.Description>
                 </Modal.Content>
               </Modal>
               <Header>
-                <Label color="violet">LYNN DIVELEY</Label>
+                <Label color="violet">BISHOP CHARLES OLE MELIYIO; SHEKINAH PENTECOSTAL CHURCH</Label>
               </Header>
             </Grid.Column>
           </Grid.Row>
