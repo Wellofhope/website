@@ -62,7 +62,7 @@ const CardExampleGroups = () => (
         <br/>
         {/* <Card.Meta>Tel.</Card.Meta> */}
         <Card.Description>
-        <Icon name='text telephone' color='green'/>(+254) 713510766
+        <Icon name='text telephone' color='green'/>(+254) 713 510 766
         </Card.Description>
        
       </Card.Content>
