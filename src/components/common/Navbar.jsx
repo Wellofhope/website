@@ -122,10 +122,10 @@ const Navbar = () => {
                   </Link>
                   <Divider />
                   <Link className="dropdown-item" to="/flory">
-                    The Florys
+                    Nathaniel Kamau
                   </Link>
                   <Divider />
-                  <Link className="dropdown-item" to="/benedict">
+                  {/* <Link className="dropdown-item" to="/benedict">
                     Christ'n MaryBeth Benedict
                   </Link>
                   <Divider />
@@ -135,7 +135,7 @@ const Navbar = () => {
                   <Divider />
                   <Link className="dropdown-item" to="/support">
                     Support Group
-                  </Link>
+                  </Link> */}
                 </div>
               </li>
               <li className="nav-item">
