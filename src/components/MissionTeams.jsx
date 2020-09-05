@@ -49,8 +49,8 @@ class MissionTeams extends Component {
     <Segment>
 <Image src= {require('./common/assets/img/team.jpg')} size='medium' floated='left' />
 <p textAlign='center'>
-The arrival of <Label basic color='green'>THE VIRGINIA TEAM</Label>. The unbeatable twelve who landed in Kenya 
-on different dates were a true representation of the American love for Kenya.
+I have been blessed to be associated with THE WELL OF HOPE since 2007 and led the first team in 2011. Since then I have
+been able to lead more than five teams. These visits over the past 11 years have given me an amazing view
 </p>
 <Image src= {require('./common/assets/img/virginia.jpg')} size='medium' floated='right' />
 <p textAlign='center'>
