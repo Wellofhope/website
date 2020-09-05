@@ -52,7 +52,7 @@ class Header extends Component {
 
               <Carousel.Caption>
                 {/* <h3><Transition/></h3> */}
-                <p>Our Sponsorship team</p>
+                <h2>Child Sponsorship</h2>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -66,7 +66,7 @@ class Header extends Component {
 
               <Carousel.Caption>
                 {/* <h3><Transition/></h3> */}
-                <p>Housing</p>
+                <h2>Housing Project</h2>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -80,7 +80,7 @@ class Header extends Component {
 
               <Carousel.Caption>
                 {/* <h3><Transition/></h3> */}
-                <p>Food Donations</p>
+                <h2>Food Donations</h2>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -94,7 +94,7 @@ class Header extends Component {
 
               <Carousel.Caption>
                 {/* <h3><Transition/></h3> */}
-                <p>Water project</p>
+                <h2>Water project</h2>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -108,7 +108,7 @@ class Header extends Component {
 
               <Carousel.Caption>
                 {/* <h3><Transition/></h3> */}
-                <p>Farm projects</p>
+                <h2>Farm projects</h2>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -122,7 +122,7 @@ class Header extends Component {
 
               <Carousel.Caption>
                 {/* <h3><Transition/></h3> */}
-                <p>Land And settlement</p>
+                <h2>Land And settlement</h2>
               </Carousel.Caption>
             </Carousel.Item>
           </Carousel>

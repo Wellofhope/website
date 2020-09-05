@@ -62,7 +62,7 @@ class Causes extends Component {
               {" "}
               <Header as="h1" color="red">
                 {" "}
-                SPONSORS STORIES{" "}
+                OUR MISSIONARY STORIES{" "}
               </Header>
             </Header.Content>
           </Header>
