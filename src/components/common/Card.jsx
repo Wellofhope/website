@@ -38,11 +38,11 @@ const CardExampleGroups = () => (
 
         {/* <Card.Meta>New User</Card.Meta> */}
         <Card.Description color='blue'>
-            <Icon name='at' color='red'/>SUPPORT@WELLOFHOPEINT.ORG
+            <Icon name='at' color='red'/>wellofhopeinternational@yahoo.co.uk
         </Card.Description>
         <br/>
         <Card.Description>
-            <Icon name='at' color='red'/>info@wellofhopeint.org
+            <Icon name='at' color='red'/>
         </Card.Description>
       </Card.Content>
     </Card>
@@ -62,7 +62,7 @@ const CardExampleGroups = () => (
         <br/>
         {/* <Card.Meta>Tel.</Card.Meta> */}
         <Card.Description>
-        <Icon name='text telephone' color='green'/>(+254) 712 256 610
+        <Icon name='text telephone' color='green'/>(+254) 713510766
         </Card.Description>
        
       </Card.Content>
