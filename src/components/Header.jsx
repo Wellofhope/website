@@ -74,7 +74,7 @@ class Header extends Component {
                 className="d-block w-100"
                 width="100%"
                 height="50%"
-                src={require("./common/assets/img/foods.JPG")}
+                // src={require("./common/assets/img/foods.JPG")}
                 alt="Third slide"
               />
 
