@@ -1,14 +1,15 @@
 import React from "react";
-import { Button, Divider, Input, Segment, Icon } from 'semantic-ui-react'
-import Logo from './Logo';
-import {Link} from "react-router-dom";
+import { Button, Divider, Input, Segment, Icon } from "semantic-ui-react";
+import Logo from "./Logo";
+import { Link } from "react-router-dom";
 const Navbar = () => {
-  
-    return ( 
-        <React.Fragment>
+  return (
+    <React.Fragment>
       <nav className="navbar navbar-expand-sm navbar-light bg-blue border-bottom">
         <a className="navbar-brand" href="#">
-        <Link className="navbar-brand js-scroll-trigger" to="/"><Logo/></Link>
+          <Link className="navbar-brand js-scroll-trigger" to="/">
+            <Logo />
+          </Link>
         </a>
         <button
           className="navbar-toggler d-lg-none"
@@ -38,7 +39,13 @@ const Navbar = () => {
                 {/* <Link className="nav-link" to="https://uploadhope.netlify.app/">
                   Gallery
                 </Link> */}
-                <a target="_blank" className="nav-link" href="https://hope-gallery.netlify.app/">Gallery</a>
+                <a
+                  target="_blank"
+                  className="nav-link"
+                  href="https://hope-gallery.netlify.app/"
+                >
+                  Gallery
+                </a>
               </li>
               <li className="nav-item dropdown">
                 <a
@@ -52,7 +59,7 @@ const Navbar = () => {
                   Media
                 </a>
                 <div className="dropdown-menu" aria-labelledby="userAccount">
-                {/* <Link className="dropdown-item" to="/blog">
+                  {/* <Link className="dropdown-item" to="/blog">
                   Blog
                 </Link> */}
                   <Divider />
@@ -90,7 +97,7 @@ const Navbar = () => {
                   </Link>
                   <Divider />
                   <Link className="dropdown-item" to="/water">
-                    Water 
+                    Water
                   </Link>
                   <Divider />
                   <Link className="dropdown-item" to="/other projects">
@@ -107,7 +114,7 @@ const Navbar = () => {
                   aria-haspopup="true"
                   aria-expanded="false"
                 >
-                  Directors' Take
+                  Founders' Take
                 </a>
                 <div className="dropdown-menu" aria-labelledby="userAccount">
                   <Link className="dropdown-item" to="/zipporah">
@@ -147,17 +154,17 @@ const Navbar = () => {
                 </Link>
               </li>
             </ul>
-            <br/>
-             <div className="my-2 my-lg-0">
-             <Link className="btn btn-secondary" to="/donate"><Icon name='handshake' />    DONATE TO THIS CAUSE</Link>
-
-            </div> 
+            <br />
+            <div className="my-2 my-lg-0">
+              <Link className="btn btn-secondary" to="/donate">
+                <Icon name="handshake" /> DONATE TO THIS CAUSE
+              </Link>
+            </div>
           </div>
-        
         </div>
       </nav>
     </React.Fragment>
   );
 };
- 
+
 export default Navbar;
