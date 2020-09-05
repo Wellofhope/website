@@ -35,7 +35,7 @@ class Zipporah extends Component {
                             <p>
                                 Changing the lives of widows would never be complete without reaching out to their
                                  children. This is how the sponsorship program was born. The organisation that was 
-                                 started as a platform to servwe widows by way of fellowship, later turned into a 
+                                 started as a platform to serve widows by way of fellowship, later turned into a 
                                  well that gives hope to widows and their  children. Thanks to the German Baptist, 
                                  New Conference, which  became the first church  to embrace my visison for  the 
                                  widows in the US and that also supports the majority of the sponsored children in Kenya
