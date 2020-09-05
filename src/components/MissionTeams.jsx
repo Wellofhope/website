@@ -50,13 +50,14 @@ class MissionTeams extends Component {
 <Image src= {require('./common/assets/img/team.jpg')} size='medium' floated='left' />
 <p textAlign='center'>
 I have been blessed to be associated with THE WELL OF HOPE since 2007 and led the first team in 2011. Since then I have
-been able to lead more than five teams. These visits over the past 11 years have given me an amazing view
+been able to lead more than five teams. These visits over the past 11 years have given me an amazing view of Gods love and work.
+I have seen manywidows who were completely hopeless created into new beings who are smiling, laughing and have confidence only God 
+can do that. Each trip I wonder what new things God will show me. This time I saw God provide a family that had given up a new start. 
+ 
 </p>
 <Image src= {require('./common/assets/img/virginia.jpg')} size='medium' floated='right' />
 <p textAlign='center'>
-    Some members of this team started falling sick, one after the other. We watched helplessly in this time of trial.
-    However, we overcame all these challenges and were still able to provide for many of the widows. Because of this team's 
-    efforts, widows got blessed in various areas in their lives.
+   
 </p>
 <p textAlign='center'>
 <Header as='h5'color='violet'>
