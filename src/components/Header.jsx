@@ -111,6 +111,20 @@ class Header extends Component {
                 <p>Farm projects</p>
               </Carousel.Caption>
             </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                width="100%"
+                height="50%"
+                src={require("./common/assets/img/landsettle.jpg")}
+                alt="Third slide"
+              />
+
+              <Carousel.Caption>
+                {/* <h3><Transition/></h3> */}
+                <p>Land And settlement</p>
+              </Carousel.Caption>
+            </Carousel.Item>
           </Carousel>
         </div>
         {/* <Carousels/> */}

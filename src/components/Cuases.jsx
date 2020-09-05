@@ -62,7 +62,7 @@ class Causes extends Component {
               {" "}
               <Header as="h1" color="red">
                 {" "}
-                SPONSORS{" "}
+                SPONSORS STORIES{" "}
               </Header>
             </Header.Content>
           </Header>
@@ -740,45 +740,61 @@ class Causes extends Component {
                     src="https://react.semantic-ui.com/images/avatar/large/rachel.png"
                   />
                   <Modal.Description>
-                    <p textAlign="center">Religion that God our father accepts as pure and faultless
-                    is this: to look after orphans and widows in their distress and to keep one self
-                    from being polluted by the world... James 1:27
+                    <p textAlign="center">
+                      Religion that God our father accepts as pure and faultless
+                      is this: to look after orphans and widows in their
+                      distress and to keep one self from being polluted by the
+                      world... James 1:27
                     </p>
                     <p textAlign="center">
-                     Serving humanity has always been the heart beat of God. The world is full of peoplewho are living 
-                     below the poverty level. Even meeting their basic needs become a very big challenge to them. This may
-                     be attributed to lack of education and opportunities while others are just outright lazy. At the same 
-                     time I believe others are also there so that God can create a conducive environment for somebody to 
-                     become a vessel of honor and be used by God to meet their needs. THe Bible says "... you will always 
-                     have the poor in your midst." and yet God Almighty can make everybody able to meet their own basic
-                     needs.
+                      Serving humanity has always been the heart beat of God.
+                      The world is full of peoplewho are living below the
+                      poverty level. Even meeting their basic needs become a
+                      very big challenge to them. This may be attributed to lack
+                      of education and opportunities while others are just
+                      outright lazy. At the same time I believe others are also
+                      there so that God can create a conducive environment for
+                      somebody to become a vessel of honor and be used by God to
+                      meet their needs. THe Bible says "... you will always have
+                      the poor in your midst." and yet God Almighty can make
+                      everybody able to meet their own basic needs.
                     </p>
                     <p textAlign="center">
-                     However, the bottom-line is who will allow God to use them to become Hope to the hopeless? THey cry unto
-                     God for help. I have seen the demonstration of these scriptures through the Well Of Hope International.
-                     I have interacted with the directors so closely hence got the opportunity to know the impact this ministry
-                     has brought to many needy families.
+                      However, the bottom-line is who will allow God to use them
+                      to become Hope to the hopeless? THey cry unto God for
+                      help. I have seen the demonstration of these scriptures
+                      through the Well Of Hope International. I have interacted
+                      with the directors so closely hence got the opportunity to
+                      know the impact this ministry has brought to many needy
+                      families.
                     </p>
                     <p textAlign="center">
-                     I am personally proud to be associated with the Well Of Hope International and I pray that God open more doors
-                     for this great ministry to be able to fulfill its calling. God bless Zipporah and Nathaniel and all the well wishers
-                     and friends of Well Of Hope.
+                      I am personally proud to be associated with the Well Of
+                      Hope International and I pray that God open more doors for
+                      this great ministry to be able to fulfill its calling. God
+                      bless Zipporah and Nathaniel and all the well wishers and
+                      friends of Well Of Hope.
                     </p>
                     <p>
-                  {" "}
-                  <Label basic color="violet">
-                    {" "}
-                    <Label color="violet">Mathew 24:45-47</Label>
-                    "Who Then is the faithful and wise servant, whom the master has put in charge of the servants in his household
-                    to give them their food at the proper time? It will be good for that servant whose master finds him doing so when 
-                    he returns. I tell you the truth; He will put him in charge of all His possessions "
-                  </Label>
-                </p>
+                      {" "}
+                      <Label basic color="violet">
+                        {" "}
+                        <Label color="violet">Mathew 24:45-47</Label>
+                        "Who Then is the faithful and wise servant, whom the
+                        master has put in charge of the servants in his
+                        household to give them their food at the proper time? It
+                        will be good for that servant whose master finds him
+                        doing so when he returns. I tell you the truth; He will
+                        put him in charge of all His possessions "
+                      </Label>
+                    </p>
                   </Modal.Description>
                 </Modal.Content>
               </Modal>
               <Header>
-                <Label color="violet">BISHOP CHARLES OLE MELIYIO; SHEKINAH PENTECOSTAL CHURCH</Label>
+                <Label color="violet">
+                  BISHOP CHARLES OLE MELIYIO; SHEKINAH PENTECOSTAL CHURCH
+                </Label>
               </Header>
             </Grid.Column>
           </Grid.Row>
