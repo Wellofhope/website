@@ -52,7 +52,7 @@ class Header extends Component {
 
               <Carousel.Caption>
                 {/* <h3><Transition/></h3> */}
-                <p>Our Sponsorship team.</p>
+                <p>Our Sponsorship team</p>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -60,7 +60,7 @@ class Header extends Component {
                 className="d-block w-100"
                 width="100%"
                 height="50%"
-                src={require("./common/assets/img/construction.JPG")}
+                src={require("./common/assets/img/construction.jpg")}
                 alt="Third slide"
               />
 
@@ -74,13 +74,41 @@ class Header extends Component {
                 className="d-block w-100"
                 width="100%"
                 height="50%"
-                src={require("./common/assets/img/foods.jpg")}
+                src={require("./common/assets/img/foods.JPG")}
                 alt="Third slide"
               />
 
               <Carousel.Caption>
                 {/* <h3><Transition/></h3> */}
                 <p>Food Donations</p>
+              </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                width="100%"
+                height="50%"
+                src={require("./common/assets/img/water.jpg")}
+                alt="Third slide"
+              />
+
+              <Carousel.Caption>
+                {/* <h3><Transition/></h3> */}
+                <p>Water project</p>
+              </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                width="100%"
+                height="50%"
+                src={require("./common/assets/img/farm.JPG")}
+                alt="Third slide"
+              />
+
+              <Carousel.Caption>
+                {/* <h3><Transition/></h3> */}
+                <p>Farm projects</p>
               </Carousel.Caption>
             </Carousel.Item>
           </Carousel>

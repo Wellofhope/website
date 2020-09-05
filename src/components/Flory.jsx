@@ -28,7 +28,7 @@ class Flory extends Component {
         </div>
         <Grid>
           <Grid.Column width={4}>
-            <Image src={require('./common/assets/img/florys.JPG')} />
+            <Image src={require("./common/assets/img/florys.jpg")} />
           </Grid.Column>
           <Grid.Column width={9}>
             <Container textAlign="justified">
