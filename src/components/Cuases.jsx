@@ -254,17 +254,14 @@ class Causes extends Component {
                   <p>
                     <Header as="h3" color="blue" textAlign="center">
                       {" "}
-                      How We met Zippy{" "}
+                      The Gift that Keeps on Giving{" "}
                     </Header>
                   </p>
                 </Grid.Column>
                 <p>
-                  <Label basic color="violet" as="h1">
-                    W
-                  </Label>
-                  e met Zippporah on one of her first trips to America in 2005
-                  invited her to our home for a meal and to tell us her story.
-                  Her dream for the widows and the needy in Kenya
+                  Our trip to Kenya this year was so heart warming. Our hearts’
+                  desire was to be the hands and feet of Jesus. We sought to
+                  lift those that were down.
                 </p>
               </Container>
               <Modal trigger={<Button>Read More</Button>} centered={false}>
@@ -273,7 +270,7 @@ class Causes extends Component {
                   <p>
                     <Header as="h3" color="blue" textAlign="center">
                       {" "}
-                      How We met Zippy{" "}
+                      The Gift that Keeps on Giving{" "}
                     </Header>
                   </p>
                 </Modal.Header>
@@ -284,50 +281,233 @@ class Causes extends Component {
                     src="https://react.semantic-ui.com/images/avatar/large/rachel.png"
                   />
                   <Modal.Description>
-                    <p>
-                      Through the years we have had meetings of information
-                      about{" "}
-                      <Label basic color="violet" as="h1">
-                        WOHA
-                      </Label>
-                      , and making people aware of the opportunity to sponsor
-                      children. We have visited Nathaniel's school and met these
-                      sponsored children. This is a Christian school with high
-                      moral standards. Many of these children excel and have
-                      high aspirations because of the chance they are given at
-                      chance for a good education. From time to time these
-                      children will write letters to their sponsors expressing
-                      their appreciation for being sponsored and sharing how
-                      they are doing in school and what their goals and dreams
-                      are. This is much appreciated by those sponsoring. Some of
-                      the sponsors wish this correspondence could be even more
-                      frequent. Sponsors are able to send gifts to their
-                      children when someone visits America. Thank you letters
-                      are most often sent by the children.
+                    <p textAlign="center">
+                      God saw to our needs as we met the needs of others. We
+                      provided clothes as a tangible offering. Those served
+                      clothed us spiritually in prayers that can still be heard.
                     </p>
-                    <p>
-                      We assist with the financial aspects of{" "}
-                      <Label basic color="violet" as="h1">
-                        WELL OF HOPE AMERICA
-                      </Label>
-                      -keeping record of deposits and what they are for, wiring
-                      money from WOHA to WOHI, and sending year end contribution
-                      letters to donors.
+                    <p textAlign="center">
+                      We were strangers, yet they welcomed us into their hearts
+                      and homes. We were prisoners to our own hurts at the time.
+                      Yet those served opened the gates of love and filled us
+                      with warm hugs and gifts.
                     </p>
-                    <p>
-                      We praise God for this opportunity to serve His people and
-                      for bringing Zippporah, Nat and their lovely family into
-                      our lives.
+                    <p textAlign="center">
+                      We soon realized that they were the hands and feet of
+                      Jesus to us. This amazing experience could not have done
+                      without everyone’s prayers. We took home far more than we
+                      brought. Jesus is the gift that keeps on giving. Praise
+                      His holy name.
                     </p>
                   </Modal.Description>
                 </Modal.Content>
               </Modal>
               <Header>
-                <Label color="violet">Christ'n MaryBeth Benedict</Label>
+                <Label color="violet">DALE AND MARY SINK</Label>
               </Header>
             </Grid.Column>
             <Divider />
           </Grid.Row>
+          {/* ========================================================================================================================== */}
+          <Grid.Row>
+            <Grid.Column>
+              <Container>
+                <Grid.Column>
+                  <Gallery images={BENEDICT} />
+                  <br />
+                  <br />
+                  {/* <p>
+                    <Header as="h3" color="blue" textAlign="center">
+                      {" "}
+                      The Gift that Keeps on Giving{" "}
+                    </Header>
+                  </p> */}
+                </Grid.Column>
+                <p>
+                  2018 marked my fourth trip to Kenya to work with Well of Hope.
+                  My fair-trade store had been a shoe collection point for
+                  several years, so when given the opportunity, I was eager to
+                  see how they provided for the organization. I connected with
+                  several of the widows on my first trip in such a way that they
+                  are like family to me and now I can’t seem to stay away. Each
+                  year I am excited to return, to see how the children have
+                  grown, and see what improvements/developments have occurred.
+                </p>
+              </Container>
+              <Modal trigger={<Button>Read More</Button>} centered={false}>
+                <Modal.Header>
+                  {" "}
+                  {/* <p>
+                    <Header as="h3" color="blue" textAlign="center">
+                      {" "}
+                      The Gift that Keeps on Giving{" "}
+                    </Header>
+                  </p> */}
+                </Modal.Header>
+                <Modal.Content image>
+                  <Image
+                    wrapped
+                    size="medium"
+                    src="https://react.semantic-ui.com/images/avatar/large/rachel.png"
+                  />
+                  <Modal.Description>
+                    <p textAlign="center">
+                      I never dreamed that this would be an ongoing involvement
+                      for me, but it has become my passion. I love that we are
+                      all being enriched in this experience. The widows’
+                      emotional and material needs are being addressed. For me,
+                      it’s a true hands-on experience, not only with the widows,
+                      but with Nat and Zipporah. When you make donations to most
+                      organizations, you know it goes to a good cause, but you
+                      don’t get to identify the needs, or meet the recipients,
+                      or have input about additional projects or gifts that
+                      might be beneficial.
+                    </p>
+                    <p textAlign="center">
+                      I work hand in hand with Nat and Zipporah and can discuss
+                      any aspect with them. This past trip, I went with Nat to a
+                      farm to pick out a goat and deliver it to the widow. We
+                      determined that a hard-working widow needed startup money
+                      to begin her small business. I went shopping for bedding
+                      and made up newly purchased beds, gave out soccer balls,
+                      and witnessed the dedication of water wells in the
+                      compounds which will be life changing on so many levels.
+                    </p>
+                    <p textAlign="center">
+                      While these are all ordinary things in our lives, they
+                      change a widow’s world. I am humbled to have the
+                      opportunity to serve and be partners with Well of Hope to
+                      empower (and love on) widows and their children.
+                    </p>
+                  </Modal.Description>
+                </Modal.Content>
+              </Modal>
+              <Header>
+                <Label color="violet">VALERIE WEAVER</Label>
+              </Header>
+            </Grid.Column>
+            <Grid.Column>
+              <Container>
+                <Grid.Column>
+                  <Gallery images={BENEDICT} />
+                  <br />
+                  <br />
+                  {/* <p>
+                    <Header as="h3" color="blue" textAlign="center">
+                      {" "}
+                      GOD'S WORK{" "}
+                    </Header>
+                  </p> */}
+                </Grid.Column>
+                <p>
+                  <p>
+                    We appreciated traveling with the 2018 Ohio team to Kenya.
+                    It's very exciting to see God working in faraway places. It
+                    was a blessing to meet other Christians and share in helping
+                    those in need. Most of all, it blessed us to hear praises
+                    and thanksgiving being sung by those receiving water wells,
+                    food, and homes.
+                  </p>
+                </p>
+              </Container>
+              <Modal trigger={<Button>Read More</Button>} centered={false}>
+                <Modal.Header>
+                  {" "}
+                  {/* <p>
+                    <Header as="h3" color="blue" textAlign="center">
+                      {" "}
+                      GOD'S WORK{" "}
+                    </Header>
+                  </p> */}
+                </Modal.Header>
+                <Modal.Content image>
+                  <Image
+                    wrapped
+                    size="medium"
+                    // src="https://react.semantic-ui.com/images/avatar/large/rachel.png"
+                  />
+                  <Modal.Description>
+                    <p>
+                      Thank you, Nat & Zippy, for letting the Lord use both of
+                      you to help bring His gospel to others and for sharing
+                      your vision with us.
+                      <Label basic color="violet" as="h1">
+                        Thank you, Nat & Zippy, for letting the Lord use both of
+                        you to help bring His gospel to others and for sharing
+                        your vision with us. 1 Peter 2:9 KJV But ye are a chosen
+                        generation, a royal priesthood, a holy nation, a
+                        peculiar people; that ye should shew forth the praises
+                        of him who hath called you out of darkness into his
+                        marvelous light.
+                      </Label>
+                    </p>
+                  </Modal.Description>
+                </Modal.Content>
+              </Modal>
+              <Header>
+                <Label color="violet">CHARLES AND SUSAN WRAY</Label>
+              </Header>
+            </Grid.Column>
+            <Grid.Column>
+              <Container>
+                <Grid.Column>
+                  <Gallery images={BENEDICT} />
+                  <br />
+                  <br />
+                  {/* <p>
+                    <Header as="h3" color="blue" textAlign="center">
+                      {" "}
+                      How We met Zippy{" "}
+                    </Header>
+                  </p> */}
+                </Grid.Column>
+                <p>
+                Through circumstance and God’s love, I am humbled He has allowed me to learn more about Well of Hope (WOH) and the special people of Kenya.  
+                Traveling in faith, my time with the “special women and children” has been dear to my heart.
+                </p>
+              </Container>
+              <Modal trigger={<Button>Read More</Button>} centered={false}>
+                <Modal.Header>
+                  {" "}
+                  {/* <p>
+                    <Header as="h3" color="blue" textAlign="center">
+                      {" "}
+                      How We met Zippy{" "}
+                    </Header>
+                  </p> */}
+                </Modal.Header>
+                <Modal.Content image>
+                  <Image
+                    wrapped
+                    size="medium"
+                    src="https://react.semantic-ui.com/images/avatar/large/rachel.png"
+                  />
+                  <Modal.Description>
+                    <p>
+                    To see Christ worshipped in a dimension above hardship is so inspiring!  By witnessing firsthand the “before” and “after” homes is humbling. 
+                    The reaction of joy from a recipient is not soon forgotten.  It may be just an encouraging chat or a newly furnished home. 
+                     My greatest blessing comes when visiting the fatherless and widows and forming new friendship, which continue over the miles--each one blesses me.  
+                     It is a part of God’s sustaining grace at work in my life.  
+                    </p>
+                    <p>
+                    In summary, Jesus is LORD of the world and He commanded us to love one another. 
+                     WOH is a good example of Jesus’ love while also allowing one’s dignity to be kept!  
+                     It is my prayer that God will bless WOH so that many more lives can be transformed by boosting someone’s self-worth and confidence.  
+                     I anticipate that day when a great number of nations, tribes, and tongues dressed in white will stand before the Lamb! 
+                    Praise the Name of Jesus!
+
+                    </p>
+                  </Modal.Description>
+                </Modal.Content>
+              </Modal>
+              <Header>
+                <Label color="violet">CHARLENE</Label>
+              </Header>
+            </Grid.Column>
+            <Divider />
+          </Grid.Row>
+          {/* ================================================================================================================= */}
+          <Grid.Row></Grid.Row>
 
           <Divider color="blue" horizontal>
             <Header.Content>
