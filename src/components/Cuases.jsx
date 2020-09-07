@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import {
   Grid,
   Image,
@@ -462,8 +463,10 @@ class Causes extends Component {
                   </p> */}
                 </Grid.Column>
                 <p>
-                Through circumstance and God’s love, I am humbled He has allowed me to learn more about Well of Hope (WOH) and the special people of Kenya.  
-                Traveling in faith, my time with the “special women and children” has been dear to my heart.
+                  Through circumstance and God’s love, I am humbled He has
+                  allowed me to learn more about Well of Hope (WOH) and the
+                  special people of Kenya. Traveling in faith, my time with the
+                  “special women and children” has been dear to my heart.
                 </p>
               </Container>
               <Modal trigger={<Button>Read More</Button>} centered={false}>
@@ -484,18 +487,25 @@ class Causes extends Component {
                   />
                   <Modal.Description>
                     <p>
-                    To see Christ worshipped in a dimension above hardship is so inspiring!  By witnessing firsthand the “before” and “after” homes is humbling. 
-                    The reaction of joy from a recipient is not soon forgotten.  It may be just an encouraging chat or a newly furnished home. 
-                     My greatest blessing comes when visiting the fatherless and widows and forming new friendship, which continue over the miles--each one blesses me.  
-                     It is a part of God’s sustaining grace at work in my life.  
+                      To see Christ worshipped in a dimension above hardship is
+                      so inspiring! By witnessing firsthand the “before” and
+                      “after” homes is humbling. The reaction of joy from a
+                      recipient is not soon forgotten. It may be just an
+                      encouraging chat or a newly furnished home. My greatest
+                      blessing comes when visiting the fatherless and widows and
+                      forming new friendship, which continue over the
+                      miles--each one blesses me. It is a part of God’s
+                      sustaining grace at work in my life.
                     </p>
                     <p>
-                    In summary, Jesus is LORD of the world and He commanded us to love one another. 
-                     WOH is a good example of Jesus’ love while also allowing one’s dignity to be kept!  
-                     It is my prayer that God will bless WOH so that many more lives can be transformed by boosting someone’s self-worth and confidence.  
-                     I anticipate that day when a great number of nations, tribes, and tongues dressed in white will stand before the Lamb! 
-                    Praise the Name of Jesus!
-
+                      In summary, Jesus is LORD of the world and He commanded us
+                      to love one another. WOH is a good example of Jesus’ love
+                      while also allowing one’s dignity to be kept! It is my
+                      prayer that God will bless WOH so that many more lives can
+                      be transformed by boosting someone’s self-worth and
+                      confidence. I anticipate that day when a great number of
+                      nations, tribes, and tongues dressed in white will stand
+                      before the Lamb! Praise the Name of Jesus!
                     </p>
                   </Modal.Description>
                 </Modal.Content>
@@ -504,10 +514,27 @@ class Causes extends Component {
                 <Label color="violet">CHARLENE</Label>
               </Header>
             </Grid.Column>
-            <Divider />
+            <Divider color="blue" horizontal>
+              <Header.Content>
+                {" "}
+                <Header as="h1" color="red">
+                  <div>
+                    {/* <Button content="" basic /> */}
+                    <Link className="nav-link" to="/sponsor">
+                      <Image src={require("./common/assets/img/land.JPG")} />
+                      <Button color="blue" pointing="left">
+                        Sponsor Stories
+                      </Button>
+                    </Link>
+                    {/* <Button content="view more here" primary /> */}
+                  </div>
+                </Header>
+              </Header.Content>
+            </Divider>
+            {/* <Divider /> */}
           </Grid.Row>
+
           {/* ================================================================================================================= */}
-          <Grid.Row></Grid.Row>
 
           <Divider color="blue" horizontal>
             <Header.Content>
@@ -717,7 +744,7 @@ class Causes extends Component {
               </Header>
             </Grid.Column>
           </Grid.Row>
-          <Divider color="blue" horizontal>
+          {/* <Divider color="blue" horizontal>
             <Header.Content>
               {" "}
               <Header as="h1" color="red">
@@ -725,9 +752,9 @@ class Causes extends Component {
                 VOLUNTEERS{" "}
               </Header>
             </Header.Content>
-          </Divider>
+          </Divider> */}
           <Grid.Row>
-            <Grid.Column>
+            {/* <Grid.Column>
               <Container>
                 <Grid.Column>
                   <Gallery images={BENEDICT} />
@@ -790,8 +817,8 @@ class Causes extends Component {
               <Header>
                 <Label color="violet">NATHANIEL KARIUKI</Label>
               </Header>
-            </Grid.Column>
-            <Grid.Column>
+            </Grid.Column> */}
+            {/* <Grid.Column>
               <Container>
                 <Grid.Column>
                   <Gallery images={BENEDICT} />
@@ -875,8 +902,8 @@ class Causes extends Component {
               <Header>
                 <Label color="violet">PASTOR JOHN KIPEEN</Label>
               </Header>
-            </Grid.Column>
-            <Grid.Column>
+            </Grid.Column> */}
+            {/* <Grid.Column>
               <Container>
                 <Grid.Column>
                   <Gallery images={BENEDICT} />
@@ -976,7 +1003,7 @@ class Causes extends Component {
                   BISHOP CHARLES OLE MELIYIO; SHEKINAH PENTECOSTAL CHURCH
                 </Label>
               </Header>
-            </Grid.Column>
+            </Grid.Column> */}
           </Grid.Row>
         </Grid>
       </React.Fragment>

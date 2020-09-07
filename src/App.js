@@ -16,7 +16,7 @@ import Galler from './components/Galler';
 import Causes from './components/Cuases';
 import OurStory from './components/OurStory';
 import Testimonials from './components/Testimonials'
-import Sponsor from './components/Sponsor'
+import Sponsors from './components/Sponsors'
 import Water from './components/Water'
 import Zipporah from './components/Zipporah'
 import Stories from './components/Stories'
@@ -50,7 +50,7 @@ function App() {
         <Route exact path="/house" component={House} />
         <Route exact path="/landandsettlement" component={Land} />
         <Route exact path="/school" component={School} />
-        <Route exact path="/sponsorship" component={Sponsor} />
+        <Route exact path="/sponsorship" component={Sponsors} />
         <Route exact path="/contact" component={Contact} />
         <Route exact path="/projects" component={Projects} />
         <Route exact path="/videos" component={Videos}/>
