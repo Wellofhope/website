@@ -520,7 +520,7 @@ class Causes extends Component {
                 <Header as="h1" color="red">
                   <div>
                     {/* <Button content="" basic /> */}
-                    <Link className="nav-link" to="/sponsor">
+                    <Link className="nav-link" to="/sponsorship">
                       <Image src={require("./common/assets/img/land.JPG")} />
                       <Button color="blue" pointing="left">
                         Sponsor Stories
